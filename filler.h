@@ -6,24 +6,31 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 10:24:23 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/06 10:59:49 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/06 11:45:24 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+typedef struct		s_grid
+{
+	char		**g;
+	int			y;
+	int			x;
+}					t_grid;
+
 typefdef struct		s_data
 {
 	int			player;
-	int			map_x;
-	int			map_y;
-	char		**map;
-	int			piece_x;
-	int			piece_y;
-	char		**piece;
+	t_grid		map;
+	t_grid		piece;
 }					t_data;
 
 /*Functions Needed
  * free 2D array
  * store arr
  */
+
+int         read_input(int fd, t_data *map);
+int			store_arr(s_grid *grid, char **line, int cur_line);
+int			ft_malloc_arr(t_grid *grid);
