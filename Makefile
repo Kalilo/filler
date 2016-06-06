@@ -1,5 +1,5 @@
 NAME = filler
-FILES = input_data.txt read.c
+FILES = input_data.txt read.c store_arr.c
 HEADER = filler.h
 OBJECTS = $(FILES:.c=.o)
 CFLAG = -Wall -Werror -Wextra
