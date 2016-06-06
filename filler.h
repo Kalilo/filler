@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 10:24:23 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/06 10:43:52 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/06 10:59:49 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,5 @@ typefdef struct		s_data
 
 /*Functions Needed
  * free 2D array
+ * store arr
  */
