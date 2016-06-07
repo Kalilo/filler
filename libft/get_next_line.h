@@ -31,6 +31,7 @@ typedef struct		s_buff
 	int				buf_pos;
 	int				buf_fd;
 	int				eof;
+	int				buf_init;
 }					t_buff;
 
 #endif

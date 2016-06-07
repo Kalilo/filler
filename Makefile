@@ -1,11 +1,11 @@
 NAME = filler
-FILES = input_data.txt read.c store_arr.c
+FILES = read.c store_arr.c filler.c ft_test_var.c
 HEADER = filler.h
 OBJECTS = $(FILES:.c=.o)
 CFLAG = -Wall -Werror -Wextra
-ATTACH = -L libft/ -lft
+ATTACH = libft/libft.a
 
-all: $(NAME)
+all: lib $(NAME)
 
 quick: clean $(NAME)
 	@echo "Made Quickly"
@@ -14,10 +14,10 @@ lib:
 	@make -C libft/ fclean
 	@make -C libft/
 
-$(NAME): lib
-	@gcc $(CFLAG) -I libft/ -c $(FILES)
-	@gcc $(CFLAG) -o $(NAME) $(HEADER) $(OBJECTS) $(ATTACH)
+$(NAME):
+	@gcc $(CFLAG) $(FILES) $(HEADER) $(ATTACH)
 	@echo "filler Successfully Compiled"
+	@mv a.out $(NAME)
 
 clean:
 	@/bin/rm -f $(OBJECTS)
@@ -34,4 +34,4 @@ norme:
 	@norminette $(FILES)
 
 test:
-	@./fdf ../collab_fdf/test_maps/42.fdf
+	@resources/filler_vm -p1 ./filler -f resources/maps/map00
