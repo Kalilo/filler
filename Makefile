@@ -35,4 +35,4 @@ norme:
 	@norminette $(FILES)
 
 test:
-	@./filler
+	@resources/filler_vm -p1 ./filler -f resources/maps/map00
