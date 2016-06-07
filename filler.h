@@ -1,5 +1,12 @@
 #include "libft/libft.h"
 
+#include <sys/uio.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+int debugfd; //DEBUG GLOBAL VARIABLE
+
 typedef struct		s_grid
 {
 	char		**g;

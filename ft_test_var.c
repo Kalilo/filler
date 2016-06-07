@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 13:41:25 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/07 09:23:47 by ghavenga         ###   ########.fr       */
+/*   Updated: 2016/06/07 16:35:47 by ghavenga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,53 +25,51 @@ int		write_map_data(t_data data)
 {
 	int			k;
 	int			l;
-	int			fd;
 
 	k = 0;
-	fd = open("map_data.txt", O_CREAT | O_APPEND | O_WRONLY);
 //print first line
-	ft_putstr_fd("This file containsoptput from the data variables\n", fd);
+	ft_putstr_fd("\t\t---ft_test_var---\n", debugfd);
+	ft_putstr_fd("This file contains the variable information stored from the filler output.\n", debugfd);
 //print player:
-	ft_putstr_fd("Player: ", fd);
-	ft_putstr_fd(ft_itoa(data.player), fd);
+	ft_putstr_fd("Player:\t", debugfd);
+	ft_putstr_fd(ft_itoa(data.player), debugfd);
 //print map size
-	ft_putstr_fd("\nMap Size: ", fd);
-	ft_putstr_fd(ft_itoa(data.map.y), fd);
-	ft_putchar_fd(' ', fd);
-	ft_putstr_fd(ft_itoa(data.map.x), fd);
-	ft_putchar_fd('\n', fd);
+	ft_putstr_fd("\nMap Size:\t", debugfd);
+	ft_putstr_fd(ft_itoa(data.map.y), debugfd);
+	ft_putstr_fd("\t", debugfd);
+	ft_putstr_fd(ft_itoa(data.map.x), debugfd);
+	ft_putstr_fd("\n", debugfd);
 //print map
-	ft_putstr_fd("Map:\n", fd);
+	ft_putstr_fd("Map:\n\t\t", debugfd);
 	while(k < data.map.y)
 	{
 		l = 0;
 		while (l < data.map.x)
 		{
-			ft_putchar_fd(data.map.g[k][l], fd);
+			ft_putchar_fd(data.map.g[k][l], debugfd);
 			l++;
 		}
 		k++;
 	}
 //print piece size
-	ft_putstr_fd("\nPiece Size\n", fd);
-	ft_putstr_fd(ft_itoa(data.piece.y), fd);
-	ft_putchar_fd(' ', fd);
-	ft_putstr_fd(ft_itoa(data.piece.x), fd);
-	ft_putchar_fd('\n', fd);
+	ft_putstr_fd("\nPiece Size\n\t\t", debugfd);
+	ft_putstr_fd(ft_itoa(data.piece.y), debugfd);
+	ft_putstr_fd("\t\t", debugfd);
+	ft_putstr_fd(ft_itoa(data.piece.x), debugfd);
+	ft_putstr_fd("\n", debugfd);
 //print piece
-	ft_putstr_fd("Piece:\n", fd);
+	ft_putstr_fd("Piece:\n", debugfd);
 	k = 0;
 	while (k < data.piece.y)
 	{
 		l = 0;
 		while (l < data.piece.x)
 		{
-			ft_putchar_fd(data.piece.g[k][l], fd);
+			ft_putchar_fd(data.piece.g[k][l], debugfd);
 			l++;
 		}
 		k++;
 	}
 //printing done
-	close(fd);
 	return (1);
 }
