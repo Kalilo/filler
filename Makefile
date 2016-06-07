@@ -22,6 +22,7 @@ $(NAME):
 clean:
 	@/bin/rm -f $(OBJECTS)
 	@make -C libft/ clean
+	@rm $(HEADER:.h=.h.gch)
 
 fclean: clean
 	@/bin/rm -f $(NAME)
