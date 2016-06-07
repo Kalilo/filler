@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 13:41:25 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/06 14:53:00 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/07 09:23:47 by ghavenga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int		write_map_data(t_data data)
 	int			fd;
 
 	k = 0;
-	fd = open("map_data.txt", O_CREAT | O_WRONLY);
+	fd = open("map_data.txt", O_CREAT | O_APPEND | O_WRONLY);
 //print first line
 	ft_putstr_fd("This file containsoptput from the data variables\n", fd);
 //print player:
