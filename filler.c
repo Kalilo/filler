@@ -4,7 +4,8 @@ int			main(void)
 {
 	t_data	gamedata;
 
-	if(!(read_input(1, t_data.map)))
+	if(!(read_input(0, &gamedata)))
 				return (0);
+	write_map_data(gamedata);
 
 }

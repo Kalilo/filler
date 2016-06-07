@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 10:23:04 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/06 15:38:41 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/06 15:57:57 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 		map->piece.x = ft_atoi(l[2]);
 		*size += map->piece.y;
 	}
-	free2d_str(l);//write function
+//	free2d_str(l);//write function
 	return (1);
 }
 

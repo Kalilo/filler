@@ -1,4 +1,4 @@
-#include "libft/includes/libft.h"
+#include "libft/libft.h"
 
 typedef struct		s_grid
 {
@@ -22,3 +22,5 @@ typedef struct		s_data
 int         read_input(int fd, t_data *map);
 int			store_arr(t_grid *grid, char *line, int cur_line);
 int			ft_malloc_arr(t_grid *grid);
+
+int     	write_map_data(t_data data);//debug
