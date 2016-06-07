@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/05/18 13:06:44 by khansman          #+#    #+#             */
-/*   Updated: 2016/05/22 16:31:48 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/07 06:54:48 by rojones          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static t_buff	read_buffer(const int fd, t_buff b)
 
 	b.buf_pos = 0;
 	k = -1;
-	b.buf_fd = fd;
+	b.buf_init = 1;
 	b.eof = read(fd, b.buff, BUFF_SIZE);
 	if (b.eof < BUFF_SIZE && b.eof > 0)
 	{
@@ -49,7 +49,7 @@ static t_buff	get_line(const int fd, char **line, t_buff b)
 	char			*l;
 
 	line_pos = 0;
-	if (fd != b.buf_fd || b.buf_pos >= BUFF_SIZE || b.eof < 0)
+	if (b.buf_init == 0 || b.buf_pos >= BUFF_SIZE || b.eof < 0)
 		b = read_buffer(fd, b);
 	while (b.buff[b.buf_pos] != '\n' && b.buf_pos < b.eof && b.eof > -1)
 	{
@@ -74,25 +74,11 @@ static t_buff	get_line(const int fd, char **line, t_buff b)
 static int		get_buff(const int fd, char **line)
 {
 	static t_buff	arr[NUM_FILES];
-	long int		k;
 
-	k = 0;
-	while (k < NUM_FILES && fd != arr[k].buf_fd)
-		k++;
-	if (k == NUM_FILES)
-		k--;
-	if (arr[k].buf_fd == fd)
-		arr[k] = get_line(fd, line, arr[k]);
-	else
-	{
-		while (k >= 0 && arr[k].buf_fd != 0 && arr[k].eof > -1)
-			k--;
-		if (k >= 0)
-			arr[k] = get_line(fd, line, arr[k]);
-		else
-			arr[k] = get_line(fd, line, arr[NUM_FILES - 1]);
-	}
-	return (arr[k].eof);
+	if (fd < 0 || fd >= NUM_FILES)
+		return (-1);
+	arr[fd] = get_line(fd, line, arr[fd]);
+	return (arr[fd].eof);
 }
 
 int				get_next_line(const int fd, char **line)

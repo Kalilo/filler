@@ -1,16 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/06/06 10:24:23 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/06 16:46:38 by ghavenga         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include "libft.h"
+#include "libft/libft.h"
 
 typedef struct		s_grid
 {
@@ -19,7 +7,7 @@ typedef struct		s_grid
 	int			x;
 }					t_grid;
 
-typefdef struct		s_data
+typedef struct		s_data
 {
 	int			player;
 	t_grid		map;
@@ -32,5 +20,7 @@ typefdef struct		s_data
  */
 
 int         read_input(int fd, t_data *map);
-int			store_arr(s_grid *grid, char **line, int cur_line);
+int			store_arr(t_grid *grid, char *line, int cur_line);
 int			ft_malloc_arr(t_grid *grid);
+
+int     	write_map_data(t_data data);//debug
