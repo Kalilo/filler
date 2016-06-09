@@ -51,5 +51,6 @@ int		scan_arr(t_data info)
 		}
 		counts.y++;
 	}
+	give_result(best, best_weight);
 	return (best_weight);
 }
