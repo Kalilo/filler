@@ -17,6 +17,7 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define MTH02 ft_abs(count.x + pos.x - overlap.x)
 # define MTH03 ft_abs(furthest.y + pos.y - overlap.y)
 # define MTH04 ft_abs(furthest.x + pos.x - overlap.x)
+# define PIE_FUL info->piece.g[counts.y][counts.x] = '*'
 
 typedef struct		s_grid
 {
@@ -61,5 +62,6 @@ t_coord		find_furthest(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);
 
 int			ft_abs(int num);
+int			ft_is_foe(int player, char pos);
 
 int     	write_map_data(t_data data);//debug

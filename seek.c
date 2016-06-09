@@ -50,16 +50,21 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 	t_coord		nearest;
 	
 	counts.y = 0;
-	nearest.x = 0;
-	nearest.y = 0;
+	nearest.x = info->map.x;
+	nearest.y = info->map.y;
 	while (counts.y < info->map.y)
 	{
 		counts.x = 0;
 		while (counts.x < info->map.x)
 		{
-			
+			if (ft_is_foe(info->player, info->map.g[counts.y][counts.x]))
+			{
+				if ((MTH05 + MTH06) < (nearest.x + nearest.y))
+					nearest = counts;
+			}
 			counts.x++;
 		}
 		counts.y++;
 	}
+	return (nearest);
 }
