@@ -7,7 +7,7 @@
 
 int debugfd; //DEBUG GLOBAL VARIABLE
 
-# define MAP_POS info->map.g[pos->y + counts.y][pos->x + counts.x]
+# define MAP_POS info->map.g[pos.y + counts.y][pos.x + counts.x]
 
 typedef struct		s_grid
 {
