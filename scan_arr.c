@@ -18,18 +18,12 @@ int		test_point(t_data *info, t_coord pos, int *best_weight)
 					return (0);
 				if (MAP_POS != '.')
 				{
-					if (!(found) && info->player == 1 && 
-						(MAP_POS == 'o' || MAP_POS == 'O'))
-							found = 1;
-					else if (!(found) && info->player == 2 && 
-						(MAP_POS == 'x' || MAP_POS == 'X'))
-							found = 1;
-					else if ((found) && info->player == 1 && 
-						(MAP_POS == 'o' || MAP_POS == 'O')) 
-							return (0);
-					else if ((found) && info->player == 2 && 
-						(MAP_POS == 'x' || MAP_POS == 'X'))
-							return (0);
+					if ((!(found) && info->player == 1 && MP1) ||
+							(!(found) && info->player == 2 && MP2))
+								found = 1;
+					else if (((found) && info->player == 1 && MP1) ||
+								((found) && info->player == 2 && MP2))
+								return (0);
 					else
 						return (0);
 				}

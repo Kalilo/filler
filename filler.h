@@ -8,6 +8,8 @@
 int debugfd; //DEBUG GLOBAL VARIABLE
 
 # define MAP_POS info->map.g[pos.y + counts.y][pos.x + counts.x]
+# define MP1 (MAP_POS == 'o' || MAP_POS == 'O')
+# define MP2 (MAP_POS == 'x' || MAP_POS == 'X')
 
 typedef struct		s_grid
 {
