@@ -31,7 +31,7 @@ typedef struct		s_coord
 
 /**Functions Needed**
  * free 2D array
- * weight piece
+ * weight_option(PROTOTYPED) -
  *
  **Todo**
  * shorten test_point function in scan_arr.c
@@ -40,5 +40,8 @@ typedef struct		s_coord
 int         read_input(int fd, t_data *map);
 int			store_arr(t_grid *grid, char *line, int cur_line);
 int			ft_malloc_arr(t_grid *grid);
+int			scan_arr(t_data info);
+int			test_point(t_data *info, t_coord pos, int *best_weight);
+int			weight_option(t_data *info, t_coord pos, int *best_weight);
 
 int     	write_map_data(t_data data);//debug
