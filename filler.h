@@ -17,6 +17,8 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define MTH02 ft_abs(count.x + pos.x - overlap.x)
 # define MTH03 ft_abs(furthest.y + pos.y - overlap.y)
 # define MTH04 ft_abs(furthest.x + pos.x - overlap.x)
+# define MTH05 ft_abs(pos.y - counts.y)
+# define MTH06 ft_abs(pos.x - counts.x)
 # define PIE_FUL info->piece.g[counts.y][counts.x] = '*'
 
 typedef struct		s_grid
@@ -58,7 +60,7 @@ int			test_point(t_data *info, t_coord pos, int *best_weight);
 int			weight_option(t_data *info, t_coord pos, int *best_weight);
 
 t_coord		find_overlap(t_data *info, t_coord pos);
-t_coord		find_furthest(t_data *info, t_coord pos, t_coord overlap);
+t_coord		find_furthest_point(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);
 
 int			ft_abs(int num);
