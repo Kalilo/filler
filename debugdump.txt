@@ -1,0 +1,1788 @@
+	-----------BEGINNING OF TEST-------------
+
+reading input
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Player assigned
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Map size determined
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+reading input
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Player assigned
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Map size determined
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+reading input
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Player assigned
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+Map size determined
+Attempting to GetNextLine
+Running process_pos
+String Succesfully Split
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+reading input
+Attempting to GetNextLine
+Running process_pos
+Operation 0: String Succesfully Split
+Operation 1: Determining Player
+Operation 1: Player assigned
+Attempting to Free Line from GNL
+Attempting to GetNextLine
+Running process_pos
+Operation 0: String Succesfully Split
+Operation 2: Determining Map Dimensions
+Operation 2: Map size determined
+Attempting to Free Line from GNL
+Attempting to GetNextLine
+Running process_pos
+Operation 0: String Succesfully Split
+Operation 3: Running store_arr
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+Operation 0: String Succesfully Split
+Operation 1: Determining Player
+Operation 1: Player assigned
+Function(read_input) - File(read.c): Attempting to free 'line' from GNL
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+Operation 0: String Succesfully Split
+Operation 2: Determining Map Dimensions
+Operation 2: Map size determined
+Function(read_input) - File(read.c): Attempting to free 'line' from GNL
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+Operation 0: String Succesfully Split
+Operation 3: Running store_arr
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Determining Player
+read.c - process_pos: Player assigned
+Function(read_input) - File(read.c): Attempting to free 'line' from GNL
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Determining Map Dimensions
+read.c - process_pos: Map size determined
+Function(read_input) - File(read.c): Attempting to free 'line' from GNL
+Function(read_input) - File(read.c): Attempting to GetNextLine
+Function(read_input) - File(read.c): Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Running store_arr
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+read.c - read_input: Attempting to GetNextLine
+read.c - read_input: Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Determining Player
+read.c - process_pos: Player assigned
+read.c - read_input: Attempting to free 'line' from GNL
+read.c - read_input: Attempting to GetNextLine
+read.c - read_input: Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Determining Map Dimensions
+read.c - process_pos: Map size determined
+read.c - read_input: Attempting to free 'line' from GNL
+read.c - read_input: Attempting to GetNextLine
+read.c - read_input: Running process_pos
+read.c - process_pos: String Succesfully Split
+read.c - process_pos: Running store_arr
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+	-----------END OF TEST-------------
+
+	-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+	-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+store_arr.c - ft_malloc_arr: Allocated grid->g
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+store_arr.c - ft_malloc_arr: Allocating grid->g[k]
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Player
+read.c - process_pos:	Player assigned
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Determining Map Dimensions
+read.c - process_pos:	Map size determined
+read.c - read_input:	Attempting to free 'line' from GNL
+read.c - read_input:	Attempting to GetNextLine
+read.c - read_input:	Running process_pos
+read.c - process_pos:	String Succesfully Split
+read.c - process_pos:	Running store_arr
+store_arr.c -	ft_malloc_arr:	Allocated grid->g
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c -	ft_malloc_arr:	Allocating grid->g[k]
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c	read_input:	Attempting to GetNextLine
+read.c	read_input:	Running process_pos
+read.c	process_pos:	String Succesfully Split
+read.c	process_pos:	Determining Player
+read.c	process_pos:	Player assigned
+read.c	read_input:	Attempting to free 'line' from GNL
+read.c	read_input:	Attempting to GetNextLine
+read.c	read_input:	Running process_pos
+read.c	process_pos:	String Succesfully Split
+read.c	process_pos:	Determining Map Dimensions
+read.c	process_pos:	Map size determined
+read.c	read_input:	Attempting to free 'line' from GNL
+read.c	read_input:	Attempting to GetNextLine
+read.c	read_input:	Running process_pos
+read.c	process_pos:	String Succesfully Split
+read.c	process_pos:	Running store_arr
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+0store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	 int 'cur_line' =0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	 int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	 int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+store_arr.c	store_arr:	Allocating grid->g[k]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+store_arr.c	store_arr:	Returning 1read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[k]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Allocating grid->g[0]
+store_arr.c	store_arr:	Allocating grid->g[1]
+store_arr.c	store_arr:	Allocating grid->g[2]
+store_arr.c	store_arr:	Allocating grid->g[3]
+store_arr.c	store_arr:	Allocating grid->g[4]
+store_arr.c	store_arr:	Allocating grid->g[5]
+store_arr.c	store_arr:	Allocating grid->g[6]
+store_arr.c	store_arr:	Allocating grid->g[7]
+store_arr.c	store_arr:	Allocating grid->g[8]
+store_arr.c	store_arr:	Allocating grid->g[9]
+store_arr.c	store_arr:	Allocating grid->g[10]
+store_arr.c	store_arr:	Allocating grid->g[11]
+store_arr.c	store_arr:	Allocating grid->g[12]
+store_arr.c	store_arr:	Allocating grid->g[13]
+store_arr.c	store_arr:	Allocating grid->g[14]
+store_arr.c	store_arr:	Allocating grid->g[15]
+store_arr.c	store_arr:	Allocating grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Reading line[k] to grid->g[0]
+store_arr.c	store_arr:	Reading line[k] to grid->g[1]
+store_arr.c	store_arr:	Reading line[k] to grid->g[2]
+store_arr.c	store_arr:	Reading line[k] to grid->g[3]
+store_arr.c	store_arr:	Reading line[k] to grid->g[4]
+store_arr.c	store_arr:	Reading line[k] to grid->g[5]
+store_arr.c	store_arr:	Reading line[k] to grid->g[6]
+store_arr.c	store_arr:	Reading line[k] to grid->g[7]
+store_arr.c	store_arr:	Reading line[k] to grid->g[8]
+store_arr.c	store_arr:	Reading line[k] to grid->g[9]
+store_arr.c	store_arr:	Reading line[k] to grid->g[10]
+store_arr.c	store_arr:	Reading line[k] to grid->g[11]
+store_arr.c	store_arr:	Reading line[k] to grid->g[12]
+store_arr.c	store_arr:	Reading line[k] to grid->g[13]
+store_arr.c	store_arr:	Reading line[k] to grid->g[14]
+store_arr.c	store_arr:	Reading line[k] to grid->g[15]
+store_arr.c	store_arr:	Reading line[k] to grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Reading line[k] to grid->g[0]
+store_arr.c	store_arr:	Reading line[k] to grid->g[1]
+store_arr.c	store_arr:	Reading line[k] to grid->g[2]
+store_arr.c	store_arr:	Reading line[k] to grid->g[3]
+store_arr.c	store_arr:	Reading line[k] to grid->g[4]
+store_arr.c	store_arr:	Reading line[k] to grid->g[5]
+store_arr.c	store_arr:	Reading line[k] to grid->g[6]
+store_arr.c	store_arr:	Reading line[k] to grid->g[7]
+store_arr.c	store_arr:	Reading line[k] to grid->g[8]
+store_arr.c	store_arr:	Reading line[k] to grid->g[9]
+store_arr.c	store_arr:	Reading line[k] to grid->g[10]
+store_arr.c	store_arr:	Reading line[k] to grid->g[11]
+store_arr.c	store_arr:	Reading line[k] to grid->g[12]
+store_arr.c	store_arr:	Reading line[k] to grid->g[13]
+store_arr.c	store_arr:	Reading line[k] to grid->g[14]
+store_arr.c	store_arr:	Reading line[k] to grid->g[15]
+store_arr.c	store_arr:	Reading line[k] to grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+This file contains output from the data variables
+Player: 1
+Map Size: 15 17
+Map:
+    0123456789012                                                                                                                                                                                                                                              
+Piece Size
+1400093504 32767
+Piece:
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Reading line[k] to grid->g[0]
+store_arr.c	store_arr:	Reading line[k] to grid->g[1]
+store_arr.c	store_arr:	Reading line[k] to grid->g[2]
+store_arr.c	store_arr:	Reading line[k] to grid->g[3]
+store_arr.c	store_arr:	Reading line[k] to grid->g[4]
+store_arr.c	store_arr:	Reading line[k] to grid->g[5]
+store_arr.c	store_arr:	Reading line[k] to grid->g[6]
+store_arr.c	store_arr:	Reading line[k] to grid->g[7]
+store_arr.c	store_arr:	Reading line[k] to grid->g[8]
+store_arr.c	store_arr:	Reading line[k] to grid->g[9]
+store_arr.c	store_arr:	Reading line[k] to grid->g[10]
+store_arr.c	store_arr:	Reading line[k] to grid->g[11]
+store_arr.c	store_arr:	Reading line[k] to grid->g[12]
+store_arr.c	store_arr:	Reading line[k] to grid->g[13]
+store_arr.c	store_arr:	Reading line[k] to grid->g[14]
+store_arr.c	store_arr:	Reading line[k] to grid->g[15]
+store_arr.c	store_arr:	Reading line[k] to grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+		---ft_test_var---
+This file contains the variable information stored from the filler output.
+Player:	1
+Map Size:	15	17
+Map:
+    0123456789012                                                                                                                                                                                                                                              
+Piece Size
+	1383349056	32767
+Piece:
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Reading line[k] to grid->g[0]
+store_arr.c	store_arr:	Reading line[k] to grid->g[1]
+store_arr.c	store_arr:	Reading line[k] to grid->g[2]
+store_arr.c	store_arr:	Reading line[k] to grid->g[3]
+store_arr.c	store_arr:	Reading line[k] to grid->g[4]
+store_arr.c	store_arr:	Reading line[k] to grid->g[5]
+store_arr.c	store_arr:	Reading line[k] to grid->g[6]
+store_arr.c	store_arr:	Reading line[k] to grid->g[7]
+store_arr.c	store_arr:	Reading line[k] to grid->g[8]
+store_arr.c	store_arr:	Reading line[k] to grid->g[9]
+store_arr.c	store_arr:	Reading line[k] to grid->g[10]
+store_arr.c	store_arr:	Reading line[k] to grid->g[11]
+store_arr.c	store_arr:	Reading line[k] to grid->g[12]
+store_arr.c	store_arr:	Reading line[k] to grid->g[13]
+store_arr.c	store_arr:	Reading line[k] to grid->g[14]
+store_arr.c	store_arr:	Reading line[k] to grid->g[15]
+store_arr.c	store_arr:	Reading line[k] to grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+		---ft_test_var---
+This file contains the variable information stored from the filler output.
+Player:	1
+Map Size:	15	17
+Map:
+	    0123456789012                                                                                                                                                                                                                                              
+Piece Size
+		1358011200		32767
+Piece:
+
+-----------END OF TEST-------------
+
+
+-----------BEGINNING OF TEST-------------
+
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Player
+read.c		process_pos:	Player assigned
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Determining Map Dimensions
+read.c		process_pos:	Map size determined
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Attempting to GetNextLine
+read.c		read_input:	Running process_pos
+read.c		process_pos:	String Succesfully Split
+read.c		process_pos:	Running store_arr
+store_arr.c	store_arr:	int 'cur_line' = 0
+store_arr.c	ft_malloc_arr:	Allocated grid->g
+store_arr.c	ft_malloc_arr:	Allocating grid->g[0]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[1]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[2]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[3]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[4]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[5]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[6]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[7]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[8]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[9]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[10]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[11]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[12]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[13]
+store_arr.c	ft_malloc_arr:	Allocating grid->g[14]
+store_arr.c	ft_malloc_arr:	Returning 1
+
+store_arr.c	store_arr:	Reading line[k] to grid->g[0]
+store_arr.c	store_arr:	Reading line[k] to grid->g[1]
+store_arr.c	store_arr:	Reading line[k] to grid->g[2]
+store_arr.c	store_arr:	Reading line[k] to grid->g[3]
+store_arr.c	store_arr:	Reading line[k] to grid->g[4]
+store_arr.c	store_arr:	Reading line[k] to grid->g[5]
+store_arr.c	store_arr:	Reading line[k] to grid->g[6]
+store_arr.c	store_arr:	Reading line[k] to grid->g[7]
+store_arr.c	store_arr:	Reading line[k] to grid->g[8]
+store_arr.c	store_arr:	Reading line[k] to grid->g[9]
+store_arr.c	store_arr:	Reading line[k] to grid->g[10]
+store_arr.c	store_arr:	Reading line[k] to grid->g[11]
+store_arr.c	store_arr:	Reading line[k] to grid->g[12]
+store_arr.c	store_arr:	Reading line[k] to grid->g[13]
+store_arr.c	store_arr:	Reading line[k] to grid->g[14]
+store_arr.c	store_arr:	Reading line[k] to grid->g[15]
+store_arr.c	store_arr:	Reading line[k] to grid->g[16]
+store_arr.c	store_arr:	Returning 1
+
+read.c		process_pos:	Succesfully used store_arr
+read.c		read_input:	Attempting to free 'line' from GNL
+read.c		read_input:	Succesfully freed 'line' from GNL
+read.c		read_input:	Returning 1
+		---ft_test_var---
+This file contains the variable information stored from the filler output.
+Player:	1
+Map Size:	15	17
+Map:
+		    0123456789012                                                                                                                                                                                                                                              
+Piece Size
+		1526000448		32767
+Piece:
+
+-----------END OF TEST-------------
+

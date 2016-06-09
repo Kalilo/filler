@@ -5,9 +5,9 @@ OBJECTS = $(FILES:.c=.o)
 CFLAG = -Wall -Werror -Wextra
 ATTACH = libft/libft.a
 
-all: lib $(NAME)
+all: fclean lib $(NAME)
 
-quick: clean $(NAME)
+quick: fclean $(NAME)
 	@echo "Made Quickly"
 
 lib:
@@ -34,4 +34,6 @@ norme:
 	@norminette $(FILES)
 
 test:
+	@echo "\n-----------BEGINNING OF TEST-------------\n" >> debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
+	@echo "\n-----------END OF TEST-------------\n" >> debugdump.txt
