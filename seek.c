@@ -19,7 +19,7 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 	return (0);
 }
 
-t_coord	find_furthest(t_data *info, t_coord pos, t_coord overlap)
+t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 {
 	t_coord		counts;
 	t_coord		furthest;
