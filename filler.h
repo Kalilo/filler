@@ -14,6 +14,12 @@ typedef struct		s_data
 	t_grid		piece;
 }					t_data;
 
+typedef struct		s_coord
+{
+	int			x;
+	int			y;
+}					t_coord;
+
 /*Functions Needed
  * free 2D array
  * store arr
