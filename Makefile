@@ -34,6 +34,4 @@ norme:
 	@norminette $(FILES)
 
 test:
-	@echo "\n-----------BEGINNING OF TEST-------------\n" >> debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
-	@echo "\n-----------END OF TEST-------------\n" >> debugdump.txt

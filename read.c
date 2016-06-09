@@ -4,6 +4,27 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 {
 	char	**l;
 
+	ft_putstr_fd("\nread.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
+	ft_putstr_fd("\tint\t\tlines\t\t[", debugfd);
+	ft_putnbr_fd(lines, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("\tint\t\t*size\t\t[", debugfd);
+	ft_putnbr_fd(*size, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("\tchar\t\t*line\t\t[", debugfd);
+	ft_putstr_fd(line, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("\tt_data\t\t*map:\t\n", debugfd);
+	ft_putstr_fd("\t-t_grid\t\tmap\t\n", debugfd);
+	ft_putstr_fd("\t--char\t**grid\tTHIS IS THE MAP STORAGE\n", debugfd);
+	ft_putstr_fd("\t--int\t\t\ty\t[", debugfd);
+	ft_putnbr_fd(map->map.y, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("\t--int\t\t\tx\t[", debugfd);
+	ft_putnbr_fd(map->map.x, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
+
 	l = ft_strsplit(line, ' ');
 	ft_putstr_fd("read.c\t\tprocess_pos:\tString Succesfully Split\n", debugfd);
 	if (lines == 1)
@@ -20,10 +41,13 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Map Dimensions\n", debugfd);
 		map->map.y = ft_atoi(l[1]);
 		map->map.x = ft_atoi(l[2]);
-		size += map->map.y;
+		*size = *(size + map->map.y);
+		ft_putstr_fd("read.c\t\tprocess_pos:\tMap Size: [", debugfd);
+		ft_putnbr_fd(*size, debugfd);
+		ft_putstr_fd("]\n", debugfd);
 		ft_putstr_fd("read.c\t\tprocess_pos:\tMap size determined\n", debugfd);
 	}
-	if (2 < lines && lines < *size)
+	if (lines > 2 && lines < *size)
 	{ // DEBUG
 		ft_putstr_fd("read.c\t\tprocess_pos:\tRunning store_arr\n", debugfd);
 		store_arr(&map->map, line, lines - 3);
@@ -34,10 +58,11 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermines Piece Size\n", debugfd);
 		map->piece.y = ft_atoi(l[1]);
 		map->piece.x = ft_atoi(l[2]);
-		*size += map->piece.y;
+		*size = *(size + map->piece.y);
 		ft_putstr_fd("read.c\t\tprocess_pos:\tPiece size determined\n", debugfd);
 	}
 //	free2d_str(l);//write function
+	ft_putstr_fd("read.c\t\tprocess_pos:\tReturning 1\n\n", debugfd);
 	return (1);
 }
 
@@ -53,6 +78,9 @@ int			read_input(int fd, t_data *map)
 	lines = 1;
 	while(!(done))
 	{
+		ft_putstr_fd("read.c\t\tread_input:\tlines: [", debugfd);
+		ft_putnbr_fd(lines, debugfd);
+		ft_putstr_fd("]\n", debugfd);
 		ft_putstr_fd("read.c\t\tread_input:\tAttempting to GetNextLine\n", debugfd);
 		if (!(get_next_line(fd, &line)))
 			return (0);

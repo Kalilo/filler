@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 13:41:25 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/07 16:35:47 by ghavenga         ###   ########.fr       */
+/*   Updated: 2016/06/09 12:17:54 by ghavenga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,8 @@ int		write_map_data(t_data data)
 
 	k = 0;
 //print first line
-	ft_putstr_fd("\t\t---ft_test_var---\n", debugfd);
-	ft_putstr_fd("This file contains the variable information stored from the filler output.\n", debugfd);
+	ft_putstr_fd("\n\t\t---ft_test_var---\n", debugfd);
+	ft_putstr_fd("\nThis file contains the variable information stored from the filler output.\n", debugfd);
 //print player:
 	ft_putstr_fd("Player:\t", debugfd);
 	ft_putstr_fd(ft_itoa(data.player), debugfd);
@@ -71,5 +71,6 @@ int		write_map_data(t_data data)
 		k++;
 	}
 //printing done
+	ft_putstr_fd("\n\t\t---End ft_test_var (Ret (1))---\n", debugfd);
 	return (1);
 }
