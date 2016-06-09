@@ -7,6 +7,8 @@
 
 int debugfd; //DEBUG GLOBAL VARIABLE
 
+# define MAP_POS info->map.g[pos->y + counts.y][pos->x + counts.x]
+
 typedef struct		s_grid
 {
 	char		**g;
@@ -27,9 +29,12 @@ typedef struct		s_coord
 	int			y;
 }					t_coord;
 
-/*Functions Needed
+/**Functions Needed**
  * free 2D array
- * store arr
+ * weight piece
+ *
+ **Todo**
+ * shorten test_point function in scan_arr.c
  */
 
 int         read_input(int fd, t_data *map);
