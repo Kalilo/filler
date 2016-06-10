@@ -1,5 +1,14 @@
 #include "filler.h"
 
+int	ft_on_map(t_data *info, t_coord pos)
+{
+	if (pos.x < 0 || pos.y < 0)
+		return (0);
+	if 	(pos.x >= info->map.x || pos.y >= info->map.y)
+		return (0);
+	return (1);
+}
+
 t_coord	find_overlap(t_data *info, t_coord pos)
 {
 	t_coord		counts;
