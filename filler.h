@@ -66,4 +66,4 @@ t_coord		find_nearest_foe(t_data *info, t_coord pos);
 int			ft_abs(int num);
 int			ft_is_foe(int player, char pos);
 
-int     	write_map_data(t_data data);//debug
+int     	write_map_data(t_data *data);//debug

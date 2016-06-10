@@ -2,7 +2,7 @@ NAME = filler
 FILES = read.c store_arr.c filler.c ft_test_var.c
 HEADER = filler.h
 OBJECTS = $(FILES:.c=.o)
-CFLAG = -Wall -Werror -Wextra
+CFLAG = -Wall -Werror -Wextra -g
 ATTACH = libft/libft.a
 
 all: fclean lib $(NAME)
