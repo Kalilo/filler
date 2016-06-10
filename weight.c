@@ -31,6 +31,23 @@ int		scan_imm_foe(t_data *info, t_coord pos)
 int		weight_option(t_data *info, t_coord pos, int *best_weight)
 {
 	t_coord		counts;
+	int			weight;
+	t_coord		overlap;
 	
-	//
+	counts.y = pos.y;
+	overlap = find_overlap(&info, pos);
+	weight = ft_est_angle(find_nearest_foe(&info, overlap), overlap, 
+		find_furthest_point(&info, pos, overlap));
+	while (counts.y < info->piece.y + pos.y)
+	{
+		counts.x = pos.x;
+		while (counts.x < info->piece.x + pos.y)
+		{
+			if (ft_on_map(&info, counts) && 
+				info->piece[counts.y - pos.y][counts.x - pos.x] == '*')
+					weight += scan_imm_foe(&info, counts);
+			counts.x++;
+		}
+		counts.y++;
+	}
 }
