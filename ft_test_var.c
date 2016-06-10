@@ -53,9 +53,9 @@ int		write_map_data(t_data *data)
 		k++;
 	}
 //print piece size
-	ft_putstr_fd("\nPiece Size\n\t\t", debugfd);
+	ft_putstr_fd("Piece Size\n\t\t", debugfd);
 	ft_putstr_fd(ft_itoa(data->piece.y), debugfd);
-	ft_putstr_fd("\t\t", debugfd);
+	ft_putstr_fd("\t", debugfd);
 	ft_putstr_fd(ft_itoa(data->piece.x), debugfd);
 	ft_putstr_fd("\n", debugfd);
 //print piece
@@ -70,8 +70,9 @@ int		write_map_data(t_data *data)
 			l++;
 		}
 		k++;
+		ft_putchar_fd('\n', debugfd);
 	}
 //printing done
-	ft_putstr_fd("\n\t\t---End ft_test_var (Ret (1))---\n", debugfd);
+	ft_putstr_fd("\t\t---End ft_test_var (Ret (1))---\n", debugfd);
 	return (1);
 }
