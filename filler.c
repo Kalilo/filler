@@ -7,6 +7,6 @@ int			main(void)
 	debugfd = open("debugdump.txt", O_WRONLY); //DEBUGFD
 	if(!(read_input(0, &gamedata)))
 				return (0);
-	write_map_data(gamedata);
+	write_map_data(&gamedata);
 
 }

@@ -36,29 +36,29 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 			map->player = 2;
 		ft_putstr_fd("read.c\t\tprocess_pos:\tPlayer assigned\n", debugfd);
 	}
-	if (lines == 2)
+	else if (lines == 2)
 	{
 		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Map Dimensions\n", debugfd);
 		map->map.y = ft_atoi(l[1]);
 		map->map.x = ft_atoi(l[2]);
-		*size = *(size + map->map.y);
+		*size = *size + map->map.y;
 		ft_putstr_fd("read.c\t\tprocess_pos:\tMap Size: [", debugfd);
 		ft_putnbr_fd(*size, debugfd);
 		ft_putstr_fd("]\n", debugfd);
 		ft_putstr_fd("read.c\t\tprocess_pos:\tMap size determined\n", debugfd);
 	}
-	if (lines > 2 && lines < *size)
+	else if (lines > 3 && lines < *size)
 	{ // DEBUG
 		ft_putstr_fd("read.c\t\tprocess_pos:\tRunning store_arr\n", debugfd);
-		store_arr(&map->map, line, lines - 3);
+		store_arr(&map->map, l[1], lines - 4);
 		ft_putstr_fd("read.c\t\tprocess_pos:\tSuccesfully used store_arr\n", debugfd);
 	} // DEBUG
-	if (lines == *size && map->piece.x == 0)
+	else if (lines == *size && map->piece.x == 0)
 	{
 		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermines Piece Size\n", debugfd);
 		map->piece.y = ft_atoi(l[1]);
 		map->piece.x = ft_atoi(l[2]);
-		*size = *(size + map->piece.y);
+		*size = *size + map->piece.y;
 		ft_putstr_fd("read.c\t\tprocess_pos:\tPiece size determined\n", debugfd);
 	}
 //	free2d_str(l);//write function
