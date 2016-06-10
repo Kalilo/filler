@@ -11,7 +11,7 @@ int		ft_is_foe(int player, char pos)
 {
 	if (player == 1 && (pos == 'x' || pos == 'X'))
 		return (1);
-	if (player == 2 && (pos == 'o' || pos == 'O')
+	if (player == 2 && (pos == 'o' || pos == 'O'))
 		return (1);
 	if (!(player == 1 || player == 2))
 		return (-1);
@@ -33,7 +33,7 @@ int		ft_mean_pow(int a, int b)
 	return (ft_abs((a + b) / 2) * ((a + b) / 2));
 }
 
-int		ft_est_angle(t_coord a, tcoord b, tcoord c)
+int		ft_est_angle(t_coord a, t_coord b, t_coord c)
 {
 	int	dis_a;
 	int	dis_b;
