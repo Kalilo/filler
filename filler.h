@@ -59,6 +59,7 @@ int			test_point(t_data *info, t_coord pos, int *best_weight);
 
 int			weight_option(t_data *info, t_coord pos, int *best_weight);
 
+int			ft_on_map(t_data *info, t_coord pos);
 t_coord		find_overlap(t_data *info, t_coord pos);
 t_coord		find_furthest_point(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);
