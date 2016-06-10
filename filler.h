@@ -20,6 +20,7 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define MTH05 ft_abs(pos.y - counts.y)
 # define MTH06 ft_abs(pos.x - counts.x)
 # define PIE_FUL info->piece.g[counts.y][counts.x] = '*'
+# define NE_FOE find_nearest_foe(info, overlap)
 
 typedef struct		s_grid
 {
@@ -49,21 +50,26 @@ typedef struct		s_coord
  * shorten test_point function in scan_arr.c
  */
 
+
+/*read.c*/
 int         read_input(int fd, t_data *map);
+/*store_arr.c*/
 int			store_arr(t_grid *grid, char *line, int cur_line);
 int			ft_malloc_arr(t_grid *grid);
-
+/*scan_arr.c*/
+int			test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best);
 int			scan_arr(t_data info);
-int			test_point(t_data *info, t_coord pos, int *best_weight);
-
-int			weight_option(t_data *info, t_coord pos, int *best_weight);
-
+/*weight.c*/
+int			scan_imm_foe(t_data *info, t_coord pos);
+int			weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best);
+/*seek.c*/
 int			ft_on_map(t_data *info, t_coord pos);
 t_coord		find_overlap(t_data *info, t_coord pos);
 t_coord		find_furthest_point(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);
-
+/*basic_math.c*/
 int			ft_abs(int num);
 int			ft_is_foe(int player, char pos);
-
+int			ft_est_angle(t_coord a, t_coord b, t_coord c);
+/*ft_test_var.c*/
 int     	write_map_data(t_data *data);//debug

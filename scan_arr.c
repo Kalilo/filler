@@ -1,6 +1,6 @@
 #include "filler.h"
 
-int		test_point(t_data *info, t_coord pos, int *best_weight)
+int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 {
 	t_coord		counts;
 	int			found;
@@ -29,7 +29,7 @@ int		test_point(t_data *info, t_coord pos, int *best_weight)
 		counts.y++;
 	}
 	if (counts.y == info->piece.y && counts.x == info->piece.x && found)
-		return (weight_option(info, pos, best_weight));
+		return (weight_option(info, pos, best_weight, best));
 	return (0);
 }
 
@@ -46,7 +46,7 @@ int		scan_arr(t_data info)
 		counts.x = 1 - info.piece.x;
 		while (counts.x < info.piece.x + info.map.x -1)
 		{
-			test_point(&info, counts, &best_weight);
+			test_point(&info, counts, &best_weight, &best);
 			counts.x++;
 		}
 		counts.y++;
