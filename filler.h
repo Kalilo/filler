@@ -43,7 +43,6 @@ typedef struct		s_coord
 
 /**Functions Needed**
  * free 2D array
- * weight_option(PROTOTYPED) -
  * give_result
  *
  **Todo**
