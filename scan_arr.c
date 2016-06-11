@@ -14,7 +14,7 @@ int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 		{
 			if (info->piece.g[counts.y][counts.x] != '.')
 			{
-				if (pos.x + counts.x < 0 || pos.y + counts.y < 0)
+				if (!(ON_MAP01))
 					return (0);
 				if (ON_MAP01 && MAP_POS != '.')
 				{
