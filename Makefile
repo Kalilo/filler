@@ -38,6 +38,7 @@ test:
 	@/bin/rm -f debugdump.txt
 	@touch debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
-	@echo "\ntested successfully"
 
-f_test: fclean all test
+ftest: fclean all test
+	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+	@cat debugdump.txt
