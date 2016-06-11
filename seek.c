@@ -25,7 +25,7 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
-	return (0);
+	return (counts);
 }
 
 t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
