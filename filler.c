@@ -4,7 +4,8 @@ int			main(void)
 {	
 	static t_data	gamedata;
 	int		k;
-	
+	int		l;
+
 	k = 1;
 	debugfd = open("debugdump.txt", O_WRONLY); //DEBUGFD
 	get_player(&gamedata);
@@ -12,7 +13,9 @@ int			main(void)
 	{
 		//if(!(read_input(0, &gamedata)))
 		//	return (0);
-		//sleep(1);
+		l = 0;
+		while (l > 0)
+			l++;
 		if (read_input(0, &gamedata))
 		{
 			write_map_data(&gamedata);
