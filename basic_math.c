@@ -40,8 +40,11 @@ int		ft_est_angle(t_coord a, t_coord b, t_coord c)
 	int	dis_c;
 	
 	dis_a = ft_mean_pow(b.x, c.x) + ft_mean_pow(b.y, c.y);
+	debug_mess("est angle a weight = ", dis_a);
 	dis_b = ft_mean_pow(a.x, c.x) + ft_mean_pow(a.y, c.y);
+	debug_mess("est angle b	weight = ", dis_b);
 	dis_c = ft_mean_pow(a.x, b.x) + ft_mean_pow(a.y, b.y);
+	debug_mess("est angle c weight = ", dis_c);
 	
 	if (dis_b <= dis_a + dis_c)
 		return (2);
