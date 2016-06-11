@@ -32,6 +32,9 @@ int		store_arr(t_grid *grid, char *line, int cur_line)
 		ft_putstr_fd("\n", debugfd);
 	if (cur_line == 0)
 		ft_malloc_arr(grid);
+	ft_putstr_fd("line[k] = ", debugfd);
+	ft_putstr_fd(&line[k], debugfd);
+	ft_putstr_fd("\n", debugfd);
 	ft_putstr_fd("store_arr:\tReading line[k] to grid->g[", debugfd);
 	while (k < grid->x)
 	{
@@ -39,6 +42,7 @@ int		store_arr(t_grid *grid, char *line, int cur_line)
 		ft_putstr_fd(" ", debugfd);
 		ft_putnbr_fd(k, debugfd);
 		ft_putstr_fd(" ", debugfd);
+
 		k++;
 	}
 		ft_putstr_fd("]\n", debugfd);

@@ -1,6 +1,6 @@
 #include "filler.h"
 
-int		test_point(t_data *info, t_coord pos, int *best_weight)
+int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 {
 	t_coord		counts;
 	int			found;
@@ -16,9 +16,9 @@ int		test_point(t_data *info, t_coord pos, int *best_weight)
 			{
 				if (pos.x + counts.x < 0 || pos.y + counts.y < 0)
 					return (0);
-				if (MAP_POS != '.')
+				if (ON_MAP01 && MAP_POS != '.')
 				{
-					if (!(found) && ((PL1 && MP1) || (PL2 && MP2)))
+					if (!(found) && !(ft_is_foe(info->player, MAP_POS)))
 						found = 1;
 					else
 						return (0);
@@ -29,28 +29,28 @@ int		test_point(t_data *info, t_coord pos, int *best_weight)
 		counts.y++;
 	}
 	if (counts.y == info->piece.y && counts.x == info->piece.x && found)
-		return (weight_option(info, pos, best_weight));
+		return (weight_option(info, pos, best_weight, best));
 	return (0);
 }
 
-int		scan_arr(t_data info)
+int		scan_arr(t_data *info)
 {
 	t_coord		best;
 	int			best_weight;
 	t_coord		counts;
 	
-	counts.y = 1 - info.piece.y;
+	counts.y = 1 - info->piece.y;
 	best_weight = 0;
-	while (counts.y < info.piece.y + info.map.y - 1)
+	while (counts.y < info->piece.y + info->map.y - 1)
 	{
-		counts.x = 1 - info.piece.x;
-		while (counts.x < info.piece.x + info.map.x -1)
+		counts.x = 1 - info->piece.x;
+		while (counts.x < info->piece.x + info->map.x -1)
 		{
-			test_point(&info, counts, &best_weight);
+			test_point(info, counts, &best_weight, &best);
 			counts.x++;
 		}
 		counts.y++;
 	}
-	give_result(best, best_weight);
+	give_result(best);
 	return (best_weight);
 }
