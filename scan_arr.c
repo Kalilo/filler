@@ -6,7 +6,7 @@ int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 	int			found;
 	counts.y = 0;
 	found = 0;
-	dprintf(debugfd, "test_point\n");
+	//dprintf(debugfd, "test_point\n");
 	while (counts.y < info->piece.y)
 	{
 		counts.x = 0;
