@@ -28,9 +28,10 @@ int		ft_sqrt(int	num)
 	return (k - 1);
 }
 
-int		ft_mean_pow(int a, int b)
+int		ft_dist(t_coord a, t_coord b)
 {
-	return (ft_abs((a + b) / 2) * ((a + b) / 2));
+	return (ft_sqrt(((a.x - b.x) * (a.x - b.x)) + 
+		((a.y - b.y) * (a.y - b.y))));
 }
 
 int		ft_est_angle(t_coord a, t_coord b, t_coord c)
@@ -39,14 +40,14 @@ int		ft_est_angle(t_coord a, t_coord b, t_coord c)
 	int	dis_b;
 	int	dis_c;
 	
-	dis_a = ft_mean_pow(b.x, c.x) + ft_mean_pow(b.y, c.y);
-	debug_mess("est angle a weight = ", dis_a);
-	dis_b = ft_mean_pow(a.x, c.x) + ft_mean_pow(a.y, c.y);
-	debug_mess("est angle b	weight = ", dis_b);
-	dis_c = ft_mean_pow(a.x, b.x) + ft_mean_pow(a.y, b.y);
-	debug_mess("est angle c weight = ", dis_c);
+	dis_a = ft_dist(b, c);
+	debug_mess("est angle a = ", dis_a);
+	dis_b = ft_dist(a, c);
+	debug_mess("est angle b = ", dis_b);
+	dis_c = ft_dist(a, b);
+	debug_mess("est angle c = ", dis_c);
 	
-	if (dis_b <= dis_a + dis_c)
+	if ((dis_b * dis_b) <= (dis_a * dis_a) + (dis_c * dis_c))
 		return (2);
 	else
 		return (1);
