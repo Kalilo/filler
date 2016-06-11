@@ -4,13 +4,15 @@
 int			get_player(t_data *info)
 {
 	char	**l;
-	char	* line;
-	if (!(get_next_line(0, lines)))
+	char	*line;
+	
+	if (!(get_next_line(0, &line)))
 	return (0);
+	l = ft_strsplit(line, ' ');
 	if (ft_strcmp(l[2], "p1") == 0)
-		map->player = 1;
+		info->player = 1;
 	else if (ft_strcmp(l[2], "p2") == 0)
-		map->player = 2;
+		info->player = 2;
 	else
 		return (0);
 	return (1);
@@ -55,15 +57,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 					ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 
 	l = ft_strsplit(line, ' ');
-	if (lines == 1)
-	{
-//					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Player\n", debugfd);
-		if (ft_strcmp(l[2], "p1") == 0)
-			map->player = 1;
-		else
-			map->player = 2;
-	}
-	else if (lines == 2)
+	if (lines == 2)
 	{
 //					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Map Dimensions\n", debugfd);
 		map->map.y = ft_atoi(l[1]);
@@ -110,7 +104,7 @@ int			read_input(int fd, t_data *map)
 
 	done = 0;
 	size = 4;
-	lines = 1;
+	lines = 2;
 	while(!(done))
 	{
 //		ft_putstr_fd("read.c\t\tread_input:\tlines: [", debugfd);
@@ -128,6 +122,5 @@ int			read_input(int fd, t_data *map)
 			done = 1;
 	}
 //		ft_putstr_fd("read.c\t\tread_input:\tReturning 1\n", debugfd);
-		close(0);
 	return (1);
 }
