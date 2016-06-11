@@ -4,16 +4,14 @@ int			main(void)
 {	
 	static t_data	gamedata;
 	int		k;
-	int		l;
+	int l;
 
 	k = 1;
 	debugfd = open("debugdump.txt", O_WRONLY); //DEBUGFD
 	get_player(&gamedata);
 	while (k)
 	{
-		//if(!(read_input(0, &gamedata)))
-		//	return (0);
-		l = 0;
+		l = 2147483647 * 0.98;
 		while (l > 0)
 			l++;
 		if (read_input(0, &gamedata))
