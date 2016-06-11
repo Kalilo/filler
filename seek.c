@@ -11,10 +11,22 @@ int	ft_on_map(t_data *info, int y, int x)
 	return (1);
 }
 
+int	ft_on_piece(t_data *info, int y, int x)
+{
+	dprintf(debugfd, "ft_on_pie y = %i ", y);
+	dprintf(debugfd, "ft_on_pie x = %i\n", x);
+	if (x < 0 || y < 0)
+		return (0);
+	if 	(x >= info->piece.x || y >= info->piece.y)
+		return (0);
+	return (1);
+}
+
 t_coord	find_overlap(t_data *info, t_coord pos)
 {
 	t_coord		counts;
 	
+	dprintf(debugfd, "find_overlap\n");
 	counts.y = pos.y;
 	while (counts.y < info->piece.y + pos.y)
 	{
@@ -27,7 +39,6 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
-//	dprintf(debugfd, "find_overlap\n");
 	return (counts);
 }
 
@@ -37,7 +48,7 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 	t_coord		furthest;
 	t_coord		temp;
 	
-	//dprintf(debugfd, "find_furthest_point 1\n");
+	dprintf(debugfd, "find_furthest_point 1\n");
 	counts.y = 0;
 	furthest.x = overlap.x;
 	furthest.y = overlap.y;
@@ -68,7 +79,7 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 	counts.y = 0;
 	nearest.x = info->map.x;
 	nearest.y = info->map.y;
-	//dprintf(debugfd, "find_nearest_foe 1\n");
+	dprintf(debugfd, "find_nearest_foe 1\n");
 	while (counts.y < info->map.y)
 	{
 		counts.x = 0;

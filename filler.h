@@ -17,11 +17,14 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define ON_MAP ft_on_map(info, counts.y, counts.x)
 # define ON_MAP01 ft_on_map(info, pos.y + counts.y, pos.x + counts.x)
 # define ON_MAP02 ft_on_map(info, pos.y, pos.x)
+# define ON_MAP03 ft_on_map(info, pos.y - 1, pos.x - 1 + counts.x)
 # define MTH01 ft_dist(temp, overlap)
 # define MTH02 ft_dist(temp, furthest)
 # define MTH03 ft_dist(pos, counts)
 # define MTH04 ft_dist(pos, nearest)
 # define PIE_FUL info->piece.g[counts.y][counts.x] == '*'
+# define PIE_POS info->piece.g[counts.y - pos.y][counts.x - pos.x]
+# define ON_PIE ft_on_piece(info, counts.y - pos.y, counts.x - pos.x)
 # define NE_FOE find_nearest_foe(info, overlap)
 
 typedef struct		s_grid
@@ -66,6 +69,7 @@ int			scan_imm_foe(t_data *info, t_coord pos);
 int			weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best);
 /*seek.c*/
 int			ft_on_map(t_data *info, int y, int x);
+int			ft_on_piece(t_data *info, int y, int x);
 t_coord		find_overlap(t_data *info, t_coord pos);
 t_coord		find_furthest_point(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);

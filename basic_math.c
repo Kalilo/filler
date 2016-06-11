@@ -45,11 +45,11 @@ int		ft_est_angle(t_coord a, t_coord b, t_coord c)
 	int	dis_c;
 	
 	dis_a = ft_dist(b, c);
-	//debug_mess("est angle a = ", dis_a);
+	debug_mess("est angle a = ", dis_a);
 	dis_b = ft_dist(a, c);
-	//debug_mess("est angle b = ", dis_b);
+	debug_mess("est angle b = ", dis_b);
 	dis_c = ft_dist(a, b);
-	//debug_mess("est angle c = ", dis_c);
+	debug_mess("est angle c = ", dis_c);
 	
 	if ((dis_b * dis_b) <= (dis_a * dis_a) + (dis_c * dis_c))
 		return (2);

@@ -8,9 +8,10 @@ int		scan_imm_foe(t_data *info, t_coord pos)
 	weight = 0;
 	counts.y = 0;
 	counts.x = -1;
+	debug_mess("imm_foe 0 weight = ", weight);
 	while (++counts.x < 3)
 	{
-		if (ON_MAP01)
+		if (ON_MAP03)
 			if (ft_is_foe(info->player, info->map.g[pos.y - 1][pos.x - 1 + counts.x]))
 				weight += 10;
 	debug_mess("imm_foe 1 weight = ", weight);
@@ -26,7 +27,7 @@ int		scan_imm_foe(t_data *info, t_coord pos)
 	debug_mess("imm_foe 3 weight = ", weight);
 	while(++counts.x < 3)
 	{
-		if (ON_MAP01)
+		if (ON_MAP03)
 			if (ft_is_foe(info->player, info->map.g[pos.y - 1][pos.x - 1 + counts.x]))
 				weight += 10;
 		counts.x++;
@@ -48,21 +49,25 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 	debug_mess("weight option 1 weight = ", weight);
 	while (counts.y < info->piece.y + pos.y)
 	{
+		debug_mess("weight option 4 weight = ", weight);
 		counts.x = pos.x;
-		while (counts.x < info->piece.x + pos.y)
+		while (counts.x < info->piece.x + pos.x)
 		{
-			if (ON_MAP && info->piece.g[counts.y - pos.y][counts.x - pos.x] == '*')
+			if (ON_MAP && ON_PIE && PIE_POS == '*')
+			{
+				debug_mess("weight option 5 weight = ", weight);
 					weight += scan_imm_foe(info, counts);
+			}
 			counts.x++;
 	debug_mess("weight option 2 weight = ", weight);
 		}
 		counts.y++;
 	}
-	if (weight >= *best_weight)
+	if (weight > *best_weight)
 	{
 		*best_weight = weight;
 		*best = pos;
 	}
-	debug_mess("weight_option 1 weight = ", weight);
+	debug_mess("weight_option 3 weight = ", weight);
 	return (weight);
 }
