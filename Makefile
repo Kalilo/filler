@@ -1,6 +1,6 @@
 NAME = filler
 FILES = read.c store_arr.c filler.c ft_test_var.c *weight.c seek.c
-FILES += basic_math.c
+FILES += basic_math.c scan_arr.c result.c
 HEADER = filler.h
 OBJECTS = $(FILES:.c=.o)
 CFLAG = -Wall -Werror -Wextra -g
