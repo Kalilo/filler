@@ -30,7 +30,7 @@ int		ft_sqrt(int	num)
 
 int		ft_mean_pow(int a, int b)
 {
-	return (ft_abs((a + b) / 2) * ((a + b) / 2));
+	return (ft_abs((a - b) / 2) * ((a - b) / 2));
 }
 
 int		ft_est_angle(t_coord a, t_coord b, t_coord c)
