@@ -6,7 +6,7 @@ int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 	int			found;
 	counts.y = 0;
 	found = 0;
-//	dprintf(debugfd, "test_point\n");
+	dprintf(debugfd, "test_point\n");
 	while (counts.y < info->piece.y)
 	{
 		counts.x = 0;
@@ -39,7 +39,7 @@ int		scan_arr(t_data *info)
 	int			best_weight;
 	t_coord		counts;
 	
-	//dprintf(debugfd, "scan_arr\n");
+	dprintf(debugfd, "scan_arr\n");
 	counts.y = 1 - info->piece.y;
 	best_weight = 0;
 	while (counts.y < info->piece.y + info->map.y - 1)
