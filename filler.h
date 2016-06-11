@@ -77,6 +77,10 @@ int			ft_dist(t_coord a, t_coord b);
 int			ft_est_angle(t_coord a, t_coord b, t_coord c);
 /*result.c*/
 int			give_result(t_coord best);
+/*free_arr.c*/
+int	free_g(char ***arr, int rows);
+int free_s(char ***arr);
+int reset_info(t_data *info);
 /*ft_test_var.c*/
 int     	write_map_data(t_data *data);//debug
 void		debug_mess(char *str, int nbr);
