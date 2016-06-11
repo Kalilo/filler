@@ -2,6 +2,8 @@
 
 int	ft_on_map(t_data *info, int y, int x)
 {
+//	dprintf(debugfd, "ft_on_map y = %i ", y);
+//	dprintf(debugfd, "ft_on_map x = %i\n", x);
 	if (x < 0 || y < 0)
 		return (0);
 	if 	(x >= info->map.x || y >= info->map.y)
@@ -25,6 +27,7 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
+	dprintf(debugfd, "find_overlap\n");
 	return (counts);
 }
 
@@ -50,6 +53,7 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 		}
 		counts.y++;
 	}
+	dprintf(debugfd, "find_furthest_point\n");
 	return (furthest);
 }
 
@@ -75,5 +79,6 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
+	dprintf(debugfd, "find_nearest_foe\n");
 	return (nearest);
 }

@@ -5,6 +5,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+#include <stdio.h> //DEBUG - REMOVE BEFORE SUBMIT
+
 int debugfd; //DEBUG GLOBAL VARIABLE
 
 # define MAP_POS info->map.g[pos.y + counts.y][pos.x + counts.x]
