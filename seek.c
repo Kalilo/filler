@@ -35,6 +35,7 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 {
 	t_coord		counts;
 	t_coord		furthest;
+	t_coord		temp;
 	
 	counts.y = 0;
 	furthest.x = overlap.x;
@@ -44,9 +45,11 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 		counts.x = 0;
 		while (counts.x < info->piece.x)
 		{
+			temp.x = counts.x + pos.x;
+			temp.y = counts.y + pos.y;
 			if (ON_MAP && PIE_FUL)
 			{
-				if ((MTH01 + MTH02) > (MTH03 + MTH04))
+				if ((MTH01) > (MTH02))
 					furthest = counts;
 			}
 			counts.x++;
@@ -72,7 +75,7 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 		{
 			if (ON_MAP && ft_is_foe(info->player, M_POS00))
 			{
-				if ((MTH05 + MTH06) < (nearest.x + nearest.y))
+				if ((MTH03) < (MTH04))
 					nearest = counts;
 			}
 			counts.x++;
