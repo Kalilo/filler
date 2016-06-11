@@ -20,7 +20,7 @@ int		scan_imm_foe(t_data *info, t_coord pos)
 	counts.x = 1;
 	if (ON_MAP01 && ft_is_foe(info->player, info->map.g[pos.y][pos.x + 1]))
 		weight += 5;
-		counts.x = -1;
+	counts.x = -1;
 	while(++counts.x < 3)
 	{
 		if (ON_MAP01)

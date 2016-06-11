@@ -36,10 +36,10 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 	counts.y = 0;
 	furthest.x = overlap.x;
 	furthest.y = overlap.y;
-	while (counts.y < info->piece.x + pos.y)
+	while (counts.y < info->piece.x)
 	{
 		counts.x = 0;
-		while (counts.x < info->piece.x + pos.x)
+		while (counts.x < info->piece.x)
 		{
 			if (ON_MAP && PIE_FUL)
 			{

@@ -4,7 +4,6 @@ int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 {
 	t_coord		counts;
 	int			found;
-	
 	counts.y = 0;
 	found = 0;
 	while (counts.y < info->piece.y)
