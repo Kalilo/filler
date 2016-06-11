@@ -78,3 +78,4 @@ int			ft_est_angle(t_coord a, t_coord b, t_coord c);
 int			give_result(t_coord best);
 /*ft_test_var.c*/
 int     	write_map_data(t_data *data);//debug
+void		debug_mess(char *str, int nbr);
