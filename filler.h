@@ -25,6 +25,7 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define PIE_FUL info->piece.g[counts.y][counts.x] == '*'
 # define PIE_POS info->piece.g[counts.y - pos.y][counts.x - pos.x]
 # define ON_PIE ft_on_piece(info, counts.y - pos.y, counts.x - pos.x)
+# define ON_PIE2 ft_on_piece(info, counts.y, counts.x)
 # define NE_FOE find_nearest_foe(info, overlap)
 
 typedef struct		s_grid
@@ -82,9 +83,9 @@ int			ft_est_angle(t_coord a, t_coord b, t_coord c);
 /*result.c*/
 int			give_result(t_coord best);
 /*free_arr.c*/
-int	free_g(char ***arr, int rows);
-int free_s(char ***arr);
-int reset_info(t_data *info);
+int			free_g(char ***arr, int rows);
+int 		free_s(char ***arr);
+int 		reset_info(t_data *info);
 /*ft_test_var.c*/
 int     	write_map_data(t_data *data);//debug
 void		debug_mess(char *str, int nbr);

@@ -13,8 +13,8 @@ int	ft_on_map(t_data *info, int y, int x)
 
 int	ft_on_piece(t_data *info, int y, int x)
 {
-	dprintf(debugfd, "ft_on_pie y = %i ", y);
-	dprintf(debugfd, "ft_on_pie x = %i\n", x);
+	//dprintf(debugfd, "ft_on_pie y = %i ", y);
+	//dprintf(debugfd, "ft_on_pie x = %i\n", x);
 	if (x < 0 || y < 0)
 		return (0);
 	if 	(x >= info->piece.x || y >= info->piece.y)
@@ -59,7 +59,7 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 		{
 			temp.x = counts.x + pos.x;
 			temp.y = counts.y + pos.y;
-			if (ON_MAP && PIE_FUL)
+			if (ON_MAP01 && ON_PIE2 && PIE_FUL)
 			{
 				if ((MTH01) > (MTH02))
 					furthest = counts;

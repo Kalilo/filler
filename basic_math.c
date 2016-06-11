@@ -10,11 +10,13 @@ int		ft_abs(int num)
 
 int		ft_is_foe(int player, char pos)
 {
-//	dprintf(debugfd, "ft_is_foe\n");
+//	dprintf(debugfd, "ft_is_foe %c\n", pos);
+	
 	if (player == 1 && (pos == 'x' || pos == 'X'))
 		return (1);
 	if (player == 2 && (pos == 'o' || pos == 'O'))
 		return (1);
+//	dprintf(debugfd, "NO!\n");
 	if (!(player == 1 || player == 2))
 		return (-1);
 	return (0);
@@ -43,7 +45,9 @@ int		ft_est_angle(t_coord a, t_coord b, t_coord c)
 	int	dis_a;
 	int	dis_b;
 	int	dis_c;
-	
+	dprintf(debugfd, "a.x = %i, a.y = %i\n", a.x, a.y);
+	dprintf(debugfd, "b.x = %i, b.y = %i\n", b.x, b.y);
+	dprintf(debugfd, "c.x = %i, c.y = %i\n", c.x, c.y);
 	dis_a = ft_dist(b, c);
 	debug_mess("est angle a = ", dis_a);
 	dis_b = ft_dist(a, c);
