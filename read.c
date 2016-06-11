@@ -4,6 +4,8 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 {
 	char	**l;
 
+					ft_putstr_fd("ENTERING FILE:read.c\n\n", debugfd);
+
 	ft_putstr_fd("\nread.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 	ft_putstr_fd("\tint\t\tlines\t\t[", debugfd);
 	ft_putnbr_fd(lines, debugfd);
@@ -104,7 +106,6 @@ int			read_input(int fd, t_data *map)
 		ft_putstr_fd("read.c\t\tread_input:\tRunning process_pos\n", debugfd);
 		process_pos(lines, &size, line, map);
 		lines++;
-		ft_putstr_fd("read.c\t\tread_input:\tAttempting to free 'line' from GNL\n", debugfd);
 		free(line);
 		ft_putstr_fd("read.c\t\tread_input:\tSuccesfully freed 'line' from GNL\n", debugfd);
 		if (lines >= size + 1)
