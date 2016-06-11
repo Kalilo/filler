@@ -23,46 +23,67 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 	ft_putstr_fd("\t--int\t\t\tx\t[", debugfd);
 	ft_putnbr_fd(map->map.x, debugfd);
 	ft_putstr_fd("]\n", debugfd);
-	ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
+	
+	ft_putstr_fd("\tt_data\t\t*map:\t\n", debugfd);
+	ft_putstr_fd("\t-t_grid\t\tpiece\t\n", debugfd);
+	ft_putstr_fd("\t--char\t**grid\tTHIS IS THE PIECE STORAGE\n", debugfd);
+	ft_putstr_fd("\t--int\t\t\ty\t[", debugfd);
+	ft_putnbr_fd(map->piece.y, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	ft_putstr_fd("\t--int\t\t\tx\t[", debugfd);
+	ft_putnbr_fd(map->piece.x, debugfd);
+	ft_putstr_fd("]\n", debugfd);
+	
+					ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 
 	l = ft_strsplit(line, ' ');
-	ft_putstr_fd("read.c\t\tprocess_pos:\tString Succesfully Split\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tString Succesfully Split\n", debugfd);
 	if (lines == 1)
 	{
-		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Player\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Player\n", debugfd);
 		if (ft_strcmp(l[2], "p1") == 0)
 			map->player = 1;
 		else
 			map->player = 2;
-		ft_putstr_fd("read.c\t\tprocess_pos:\tPlayer assigned\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tPlayer assigned\n", debugfd);
 	}
-	if (lines == 2)
+	else if (lines == 2)
 	{
-		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Map Dimensions\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Map Dimensions\n", debugfd);
 		map->map.y = ft_atoi(l[1]);
 		map->map.x = ft_atoi(l[2]);
-		*size = *(size + map->map.y);
-		ft_putstr_fd("read.c\t\tprocess_pos:\tMap Size: [", debugfd);
-		ft_putnbr_fd(*size, debugfd);
-		ft_putstr_fd("]\n", debugfd);
-		ft_putstr_fd("read.c\t\tprocess_pos:\tMap size determined\n", debugfd);
+		*size = *size + map->map.y;
+					ft_putstr_fd("read.c\t\tprocess_pos:\tMap Size: [", debugfd);
+					ft_putnbr_fd(*size, debugfd);
+					ft_putstr_fd("]\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tMap size determined\n", debugfd);
 	}
-	if (lines > 2 && lines < *size)
+	else if (lines > 3 && lines < *size) //|| (map->piece.y == 0 && lines >= 5 + map->map.y))
 	{ // DEBUG
-		ft_putstr_fd("read.c\t\tprocess_pos:\tRunning store_arr\n", debugfd);
-		store_arr(&map->map, line, lines - 3);
-		ft_putstr_fd("read.c\t\tprocess_pos:\tSuccesfully used store_arr\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tRunning store_arr\n", debugfd);
+		if (map->piece.y == 0)
+			store_arr(&map->map, l[1], lines - 4);
+		else
+		store_arr(&map->piece, l[0], (lines - (map->map.y + 5)));
+					ft_putstr_fd("read.c\t\tprocess_pos:\tSuccesfully used store_arr\n", debugfd);
 	} // DEBUG
-	if (lines == *size && map->piece.x == 0)
+	else if (lines == 4 + map->map.y && map->piece.x == 0)
 	{
-		ft_putstr_fd("read.c\t\tprocess_pos:\tDetermines Piece Size\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermines Piece Size\n", debugfd);
 		map->piece.y = ft_atoi(l[1]);
 		map->piece.x = ft_atoi(l[2]);
-		*size = *(size + map->piece.y);
-		ft_putstr_fd("read.c\t\tprocess_pos:\tPiece size determined\n", debugfd);
+		*size = *size + map->piece.y;
+					ft_putstr_fd("read.c\t\tprocess_pos:\tPiece size determined\n", debugfd);
+	}
+	else if (lines <= *size && lines > map->map.y + 4)
+	{
+					ft_putstr_fd("process_pos:\t Piece (M)Allocation", debugfd);
+					ft_putnbr_fd((lines - (map->map.y + 5)), debugfd);
+					ft_putstr_fd("]\n", debugfd);		
+		store_arr(&map->piece, l[0], (lines - (map->map.y + 5)));
 	}
 //	free2d_str(l);//write function
-	ft_putstr_fd("read.c\t\tprocess_pos:\tReturning 1\n\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tReturning 1\n\n", debugfd);
 	return (1);
 }
 
@@ -90,7 +111,7 @@ int			read_input(int fd, t_data *map)
 		ft_putstr_fd("read.c\t\tread_input:\tAttempting to free 'line' from GNL\n", debugfd);
 		free(line);
 		ft_putstr_fd("read.c\t\tread_input:\tSuccesfully freed 'line' from GNL\n", debugfd);
-		if (lines >= size)
+		if (lines >= size + 1)
 			done = 1;
 	}
 		ft_putstr_fd("read.c\t\tread_input:\tReturning 1\n", debugfd);
