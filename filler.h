@@ -15,12 +15,10 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define ON_MAP ft_on_map(info, counts.y, counts.x)
 # define ON_MAP01 ft_on_map(info, pos.y + counts.y, pos.x + counts.x)
 # define ON_MAP02 ft_on_map(info, pos.y, pos.x)
-# define MTH01 ft_abs(counts.y + pos.y - overlap.y)
-# define MTH02 ft_abs(counts.x + pos.x - overlap.x)
-# define MTH03 ft_abs(furthest.y + pos.y - overlap.y)
-# define MTH04 ft_abs(furthest.x + pos.x - overlap.x)
-# define MTH05 ft_abs(pos.y - counts.y)
-# define MTH06 ft_abs(pos.x - counts.x)
+# define MTH01 ft_dist(temp, overlap)
+# define MTH02 ft_dist(temp, furthest)
+# define MTH03 ft_dist(pos, counts)
+# define MTH04 ft_dist(pos, nearest)
 # define PIE_FUL info->piece.g[counts.y][counts.x] == '*'
 # define NE_FOE find_nearest_foe(info, overlap)
 
@@ -72,7 +70,7 @@ t_coord		find_nearest_foe(t_data *info, t_coord pos);
 int			ft_abs(int num);
 int			ft_is_foe(int player, char pos);
 int			ft_sqrt(int	num);
-int			ft_mean_pow(int a, int b);
+int			ft_dist(t_coord a, t_coord b);
 int			ft_est_angle(t_coord a, t_coord b, t_coord c);
 /*result.c*/
 int			give_result(t_coord best);
