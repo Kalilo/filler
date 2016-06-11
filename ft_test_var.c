@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/06 13:41:25 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/09 12:17:54 by ghavenga         ###   ########.fr       */
+/*   Updated: 2016/06/11 10:51:01 by ghavenga         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,6 @@ int		write_map_data(t_data *data)
 		ft_putchar_fd('\n', debugfd);
 	}
 //printing done
-	ft_putstr_fd("\t\t---End ft_test_var (Ret (1))---\n", debugfd);
+	ft_putstr_fd("\t\t---End ft_test_var---\n", debugfd);
 	return (1);
 }
