@@ -41,4 +41,4 @@ test:
 
 ftest: fclean all test
 	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-	@cat debugdump.txt
+	@more debugdump.txt

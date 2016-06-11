@@ -45,6 +45,7 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 	counts.y = pos.y;
 	overlap = find_overlap(info, pos);
 	weight = ft_est_angle(NE_FOE, overlap, find_furthest_point(info, pos, overlap));
+	debug_mess("weight option 1 weight = ", weight);
 	while (counts.y < info->piece.y + pos.y)
 	{
 		counts.x = pos.x;
@@ -53,6 +54,7 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 			if (ON_MAP && info->piece.g[counts.y - pos.y][counts.x - pos.x] == '*')
 					weight += scan_imm_foe(info, counts);
 			counts.x++;
+	debug_mess("weight option 2 weight = ", weight);
 		}
 		counts.y++;
 	}
