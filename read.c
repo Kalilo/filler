@@ -37,7 +37,6 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 					ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 
 	l = ft_strsplit(line, ' ');
-					ft_putstr_fd("read.c\t\tprocess_pos:\tString Succesfully Split\n", debugfd);
 	if (lines == 1)
 	{
 					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Player\n", debugfd);
@@ -45,7 +44,6 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 			map->player = 1;
 		else
 			map->player = 2;
-					ft_putstr_fd("read.c\t\tprocess_pos:\tPlayer assigned\n", debugfd);
 	}
 	else if (lines == 2)
 	{
@@ -56,7 +54,6 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 					ft_putstr_fd("read.c\t\tprocess_pos:\tMap Size: [", debugfd);
 					ft_putnbr_fd(*size, debugfd);
 					ft_putstr_fd("]\n", debugfd);
-					ft_putstr_fd("read.c\t\tprocess_pos:\tMap size determined\n", debugfd);
 	}
 	else if (lines > 3 && lines < *size) //|| (map->piece.y == 0 && lines >= 5 + map->map.y))
 	{ // DEBUG
@@ -65,25 +62,24 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 			store_arr(&map->map, l[1], lines - 4);
 		else
 		store_arr(&map->piece, l[0], (lines - (map->map.y + 5)));
-					ft_putstr_fd("read.c\t\tprocess_pos:\tSuccesfully used store_arr\n", debugfd);
 	} // DEBUG
 	else if (lines == 4 + map->map.y && map->piece.x == 0)
 	{
-					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermines Piece Size\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tDetermining Piece Size\n", debugfd);
 		map->piece.y = ft_atoi(l[1]);
 		map->piece.x = ft_atoi(l[2]);
 		*size = *size + map->piece.y;
-					ft_putstr_fd("read.c\t\tprocess_pos:\tPiece size determined\n", debugfd);
 	}
 	else if (lines <= *size && lines > map->map.y + 4)
 	{
-					ft_putstr_fd("process_pos:\t Piece (M)Allocation", debugfd);
+					ft_putstr_fd("process_pos:\tPiece (M)Allocation [", debugfd);
 					ft_putnbr_fd((lines - (map->map.y + 5)), debugfd);
 					ft_putstr_fd("]\n", debugfd);		
 		store_arr(&map->piece, l[0], (lines - (map->map.y + 5)));
 	}
 //	free2d_str(l);//write function
-					ft_putstr_fd("read.c\t\tprocess_pos:\tReturning 1\n\n", debugfd);
+					ft_putstr_fd("read.c\t\tprocess_pos:\tReturning 1\n", debugfd);
+					ft_putstr_fd("EXITING FILE:read.c\n\n", debugfd);
 	return (1);
 }
 
