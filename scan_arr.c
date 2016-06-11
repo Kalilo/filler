@@ -16,9 +16,8 @@ int		test_point(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 			{
 				if (pos.x + counts.x < 0 || pos.y + counts.y < 0)
 					return (0);
-				if (MAP_POS != '.')
+				if (ON_MAP01 && MAP_POS != '.')
 				{
-					//if (!(found) && ((PL1 && MP1) || (PL2 && MP2)))
 					if (!(found) && !(ft_is_foe(info->player, MAP_POS)))
 						found = 1;
 					else

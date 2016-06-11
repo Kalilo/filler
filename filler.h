@@ -8,11 +8,13 @@
 int debugfd; //DEBUG GLOBAL VARIABLE
 
 # define MAP_POS info->map.g[pos.y + counts.y][pos.x + counts.x]
-# define MP1 (MAP_POS == 'o' || MAP_POS == 'O')
-# define MP2 (MAP_POS == 'x' || MAP_POS == 'X')
+# define M_POS00 info->map.g[counts.y][counts.x]
 # define PL1 info->player == 1
 # define PL2 info->player == 2
 # define MAP_FUL info->map.g[counts.y][counts.x] != '.'
+# define ON_MAP ft_on_map(info, counts.y, counts.x)
+# define ON_MAP01 ft_on_map(info, pos.y + counts.y, pos.x + counts.x)
+# define ON_MAP02 ft_on_map(info, pos.y, pos.x)
 # define MTH01 ft_abs(counts.y + pos.y - overlap.y)
 # define MTH02 ft_abs(counts.x + pos.x - overlap.x)
 # define MTH03 ft_abs(furthest.y + pos.y - overlap.y)
@@ -62,7 +64,7 @@ int			scan_arr(t_data *info);
 int			scan_imm_foe(t_data *info, t_coord pos);
 int			weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best);
 /*seek.c*/
-int			ft_on_map(t_data *info, t_coord pos);
+int			ft_on_map(t_data *info, int y, int x);
 t_coord		find_overlap(t_data *info, t_coord pos);
 t_coord		find_furthest_point(t_data *info, t_coord pos, t_coord overlap);
 t_coord		find_nearest_foe(t_data *info, t_coord pos);
