@@ -21,7 +21,7 @@ $(NAME):
 	@mv a.out $(NAME)
 
 clean:
-	@/bin/rm -f $(OBJECTS)
+	@/bin/rm -f $(OBJECTS) $(HEADER:.h=.h.gch)
 	@make -C libft/ clean
 
 fclean: clean
@@ -35,4 +35,9 @@ norme:
 	@norminette $(FILES) $(HEADER)
 
 test:
+	@/bin/rm -f debugdump.txt
+	@touch debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
+	@echo "\ntested successfully"
+
+f_test: fclean all test
