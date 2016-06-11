@@ -54,6 +54,7 @@ typedef struct		s_coord
 
 /*read.c*/
 int         read_input(int fd, t_data *map);
+int			get_player(t_data *info);
 /*store_arr.c*/
 int			store_arr(t_grid *grid, char *line, int cur_line);
 int			ft_malloc_arr(t_grid *grid);
