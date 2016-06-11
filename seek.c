@@ -37,10 +37,11 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 	t_coord		furthest;
 	t_coord		temp;
 	
+	dprintf(debugfd, "find_furthest_point 1\n");
 	counts.y = 0;
 	furthest.x = overlap.x;
 	furthest.y = overlap.y;
-	while (counts.y < info->piece.x)
+	while (counts.y < info->piece.y)
 	{
 		counts.x = 0;
 		while (counts.x < info->piece.x)
@@ -56,7 +57,6 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 		}
 		counts.y++;
 	}
-	dprintf(debugfd, "find_furthest_point\n");
 	return (furthest);
 }
 
@@ -68,13 +68,17 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 	counts.y = 0;
 	nearest.x = info->map.x;
 	nearest.y = info->map.y;
+	dprintf(debugfd, "find_nearest_foe 1\n");
 	while (counts.y < info->map.y)
 	{
 		counts.x = 0;
+	dprintf(debugfd, "find_nearest_foe 2\n");
 		while (counts.x < info->map.x)
 		{
+	dprintf(debugfd, "find_nearest_foe 3\n");
 			if (ON_MAP && ft_is_foe(info->player, M_POS00))
 			{
+	dprintf(debugfd, "find_nearest_foe 4\n");
 				if ((MTH03) < (MTH04))
 					nearest = counts;
 			}
@@ -82,6 +86,6 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
-	dprintf(debugfd, "find_nearest_foe\n");
+	dprintf(debugfd, "find_nearest_foe 5\n");
 	return (nearest);
 }

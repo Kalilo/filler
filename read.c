@@ -4,7 +4,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 {
 	char	**l;
 
-/*				ft_putstr_fd("ENTERING FILE:read.c\n\n", debugfd);
+				ft_putstr_fd("ENTERING FILE:read.c\n\n", debugfd);
 
 	ft_putstr_fd("\nread.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 	ft_putstr_fd("\tint\t\tlines\t\t[", debugfd);
@@ -37,7 +37,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 	ft_putstr_fd("]\n", debugfd);
 	
 					ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
-*/
+
 	l = ft_strsplit(line, ' ');
 	if (lines == 1)
 	{
@@ -112,5 +112,6 @@ int			read_input(int fd, t_data *map)
 			done = 1;
 	}
 //		ft_putstr_fd("read.c\t\tread_input:\tReturning 1\n", debugfd);
+		close(0);
 	return (1);
 }

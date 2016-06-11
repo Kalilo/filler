@@ -39,6 +39,11 @@ test:
 	@touch debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
 
+testvs:
+	@/bin/rm -f debugdump.txt
+	@touch debugdump.txt
+	@resources/filler_vm -p1 ./filler -p2 ./resources/players/grati.filler -f resources/maps/map00
+
 ftest: fclean all test
 	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-	@more debugdump.txt
+	@less debugdump.txt
