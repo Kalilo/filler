@@ -1,5 +1,21 @@
 #include "filler.h"
 
+
+int			get_player(t_data *info)
+{
+	char	**l;
+	char	* line;
+	if (!(get_next_line(0, lines)))
+	return (0);
+	if (ft_strcmp(l[2], "p1") == 0)
+		map->player = 1;
+	else if (ft_strcmp(l[2], "p2") == 0)
+		map->player = 2;
+	else
+		return (0);
+	return (1);
+}
+
 static int	process_pos(int lines, int *size, char *line, t_data *map)
 {
 	char	**l;
