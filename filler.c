@@ -12,7 +12,7 @@ int			main(void)
 	{
 		//if(!(read_input(0, &gamedata)))
 		//	return (0);
-		//sleep(1);
+		sleep(1);
 		if (read_input(0, &gamedata))
 		{
 			write_map_data(&gamedata);
