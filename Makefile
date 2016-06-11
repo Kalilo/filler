@@ -32,7 +32,7 @@ re: fclean all
 
 norme:
 	@clear
-	@norminette $(FILES)
+	@norminette $(FILES) $(HEADER)
 
 test:
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
