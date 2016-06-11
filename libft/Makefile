@@ -6,7 +6,7 @@
 #    By: ddu-toit <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/05/13 16:42:54 by ddu-toit          #+#    #+#              #
-#    Updated: 2016/06/11 10:23:31 by ghavenga         ###   ########.fr        #
+#    Updated: 2016/06/11 10:38:57 by ghavenga         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,7 +42,7 @@ OBJECTS = ft_memset.o ft_bzero.o ft_memcpy.o ft_memccpy.o ft_memmove.o \
 
 CFLAG = -Wall -Werror -Wextra -c -g
 
-all: $(NAME)
+all: $(NAME) clean
 
 $(NAME):
 	@gcc $(CFLAG) $(FILES)
