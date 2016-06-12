@@ -27,6 +27,8 @@ int debugfd; //DEBUG GLOBAL VARIABLE
 # define ON_PIE ft_on_piece(info, counts.y - pos.y, counts.x - pos.x)
 # define ON_PIE2 ft_on_piece(info, counts.y, counts.x)
 # define NE_FOE find_nearest_foe(info, overlap)
+# define NE_FOE2 find_nearest_foe(info, *best)
+# define CLOSER (ft_dist(NE_FOE, pos) < ft_dist(*best, NE_FOE2)
 
 typedef struct		s_grid
 {

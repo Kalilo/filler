@@ -63,7 +63,7 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 		}
 		counts.y++;
 	}
-	if (weight > *best_weight)
+	if ((weight > *best_weight) || CLOSER))
 	{
 		*best_weight = weight;
 		*best = pos;
