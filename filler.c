@@ -1,13 +1,13 @@
 #include "filler.h"
 
-int			main(void)
+int	main(void)
 {	
-	static t_data	gamedata;
+	static	t_data	gamedata;
 	int		k;
-	int l;
+	int		l;
 
 	k = 1;
-	debugfd = open("debugdump.txt", O_WRONLY); //DEBUGFD
+	debugfd = open("debugdump.txt", O_WRONLY); //debug
 	get_player(&gamedata);
 	while (k)
 	{
