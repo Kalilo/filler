@@ -1,5 +1,5 @@
 NAME = filler
-FILES = read.c store_arr.c filler.c ft_test_var.c *weight.c seek.c
+FILES = read.c store_arr.c filler.c *weight.c seek.c
 FILES += basic_math.c scan_arr.c result.c free_arr.c
 HEADER = filler.h
 OBJECTS = $(FILES:.c=.o)
@@ -35,22 +35,20 @@ norme:
 	@norminette $(FILES) $(HEADER)
 
 test:
-	@/bin/rm -f debugdump.txt
-	@touch debugdump.txt
 	@resources/filler_vm -p1 ./filler -f resources/maps/map00
 
 testvs:
-	@/bin/rm -f debugdump.txt
-	@touch debugdump.txt
 	@resources/filler_vm -p1 ./filler -p2 ./resources/players/grati.filler -f \
 		resources/maps/map00
 
 testvs2:
-	@/bin/rm -f debugdump.txt
-	@touch debugdump.txt
 	@resources/filler_vm -p1 ./resources/players/grati.filler -p2 ./filler -f \
 		resources/maps/map00
 
 ftest: fclean all test
 	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-	@less debugdump.txt
+
+ftest0: fclean all
+	@resources/filler_vm -p1 ./resources/players/abanlin.filler -p2 ./filler \
+		-f resources/maps/map00
+	@echo "Done Testing"
