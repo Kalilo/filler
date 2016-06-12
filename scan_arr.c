@@ -40,6 +40,8 @@ int		scan_arr(t_data *info)
 	t_coord		counts;
 	
 	dprintf(debugfd, "scan_arr\n");
+    if (info->piece.y == 0)
+        return (1);
 	counts.y = 1 - info->piece.y;
 	best_weight = 0;
 	while (counts.y < info->piece.y + info->map.y - 1)
