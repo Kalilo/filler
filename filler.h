@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/12 09:59:45 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/12 14:23:07 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/18 13:57:55 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@
 # define MTH03 ft_dist(pos, counts)
 # define MTH04 ft_dist(pos, nearest)
 # define PIE_FUL info->piece.g[counts.y][counts.x] == '*'
+# define PIE_FUL2 info->piece.g[counts.y - pos.y][counts.x - pos.x] == '*'
 # define PIE_POS info->piece.g[counts.y - pos.y][counts.x - pos.x]
 # define ON_PIE ft_on_piece(info, counts.y - pos.y, counts.x - pos.x)
 # define ON_PIE2 ft_on_piece(info, counts.y, counts.x)

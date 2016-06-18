@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/12 09:56:24 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/12 15:28:33 by khansman         ###   ########.fr       */
+/*   Updated: 2016/06/18 13:59:06 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 		counts.x = pos.x;
 		while (counts.x < info->piece.x + pos.x)
 		{
-			if (ON_MAP && MAP_FUL)
+			if (ON_MAP && MAP_FUL && ON_PIE && PIE_FUL2)
 				return (counts);
 			counts.x++;
 		}
