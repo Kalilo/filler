@@ -52,3 +52,10 @@ ftest0: fclean all
 	@resources/filler_vm -p1 ./resources/players/abanlin.filler -p2 ./filler \
 		-f resources/maps/map00
 	@echo "Done Testing"
+	
+me: qme
+	cat -e author
+	
+qme:
+	@rm -Rf author
+	@whoami > author
