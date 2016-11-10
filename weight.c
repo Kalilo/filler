@@ -52,26 +52,16 @@ int		weight_option(t_data *info, t_coord pos,
 		counts.x = pos.x;
 		while (counts.x < info->piece.x + pos.x)
 		{
-			if (ON_MAP && ON_PIE && PIE_POS == '*') {
+			if (ON_MAP && ON_PIE && PIE_POS == '*')
+			{
 				weight += scan_imm_foe(info, counts);
-				t_coord tmp;
-				tmp.x = pos.x + counts.x;
-				tmp.y = pos.y + counts.y;
-				if ((weight < 5 && *best_weight < 5) && (BEST_DIST) {
-					weight = 2;
-					*best = pos;
-					*best_weight = weight;
-					best_dist = ft_dist(tmp, find_nearest_foe(info, tmp));
-				}
+				if ((weight < 5 && *best_weight < 5) && (CUR_DIST < best_dist))
+					SET_BEST;
 			}
 			counts.x++;
 		}
 		counts.y++;
 	}
-	if ((weight > *best_weight))
-	{
-		*best_weight = weight;
-		*best = pos;
-	}
+	SET_BEST;
 	return (weight);
 }

@@ -46,7 +46,8 @@ int		ft_dist(t_coord a, t_coord b)
 		((a.y - b.y) * (a.y - b.y))));
 }
 
-t_coord	ft_add_coord(t_coord a, t_coord b) {
+t_coord	ft_add_coord(t_coord a, t_coord b)
+{
 	t_coord	tmp;
 
 	tmp.x = a.x + b.x;

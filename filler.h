@@ -43,7 +43,11 @@
 # define NE_FOE2 find_nearest_foe(info, *best)
 # define CLOSER (ft_dist(NE_FOE, pos) < ft_dist(*best, NE_FOE2))
 # define FUR_01 find_furthest_point(info, pos, overlap)
-# define BEST_DIST ft_dist(tmp, find_nearest_foe(info, tmp)) < best_dist)
+# define AB_POS ft_add_coord(pos, counts)
+# define CUR_DIST ft_dist(AB_POS, find_nearest_foe(info, AB_POS))
+# define SET_BEST {weight=2;*best=pos;*best_weight=weight;best_dist=CUR_DIST;}
+# define SET_WEIGHT {*best_weight = weight;*best = pos;}
+# define SET_BEST2 if ((weight > *best_weight))SET_WEIGHT
 
 # define QUIT_CON01 if (!(ON_MAP01)) return (0)
 # define ONE_POINT found = 1; else return (0)
@@ -99,7 +103,7 @@ int				ft_abs(int num);
 int				ft_is_foe(int player, char pos);
 int				ft_sqrt(int	num);
 int				ft_dist(t_coord a, t_coord b);
-int				ft_est_angle(t_coord a, t_coord b, t_coord c);
+t_coord			ft_add_coord(t_coord a, t_coord b);
 int				give_result(t_coord best);
 int				free_g(char ***arr, int rows);
 int				free_s(char ***arr);
