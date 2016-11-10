@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/12 09:56:52 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/12 15:36:46 by khansman         ###   ########.fr       */
+/*   Updated: 2016/11/10 09:39:17 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,26 +42,26 @@ int		weight_option(t_data *info, t_coord pos,
 	t_coord		counts;
 	int			weight;
 	t_coord		overlap;
+	static int	best_dist = 2147483647;
 
-	weight = 0;
+	weight = 1;
 	counts.y = pos.y;
 	overlap = find_overlap(info, pos);
-	weight = ft_est_angle(NE_FOE, overlap, FUR_01);
 	while (counts.y < info->piece.y + pos.y)
 	{
 		counts.x = pos.x;
 		while (counts.x < info->piece.x + pos.x)
 		{
 			if (ON_MAP && ON_PIE && PIE_POS == '*')
+			{
 				weight += scan_imm_foe(info, counts);
+				if ((weight < 5 && *best_weight < 5) && (CUR_DIST < best_dist))
+					SET_BEST;
+			}
 			counts.x++;
 		}
 		counts.y++;
 	}
-	if ((weight > *best_weight) || (weight == *best_weight && CLOSER))
-	{
-		*best_weight = weight;
-		*best = pos;
-	}
+	SET_BEST2;
 	return (weight);
 }

@@ -46,17 +46,11 @@ int		ft_dist(t_coord a, t_coord b)
 		((a.y - b.y) * (a.y - b.y))));
 }
 
-int		ft_est_angle(t_coord a, t_coord b, t_coord c)
+t_coord	ft_add_coord(t_coord a, t_coord b)
 {
-	int	dis_a;
-	int	dis_b;
-	int	dis_c;
+	t_coord	tmp;
 
-	dis_a = ft_dist(b, c);
-	dis_b = ft_dist(a, c);
-	dis_c = ft_dist(a, b);
-	if ((dis_b * dis_b) < (dis_a * dis_a) + (dis_c * dis_c))
-		return (2);
-	else
-		return (1);
+	tmp.x = a.x + b.x;
+	tmp.y = a.y + b.y;
+	return (tmp);
 }

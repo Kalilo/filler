@@ -10,16 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* These functions are used to debuf the program.
- * They are to be removed before final submission.
- */
-
 #include "filler.h"
 
-#include <sys/uio.h>
-#include <fcntl.h>
-#include <sys/types.h>
-#include <unistd.h>
+/*
+** These functions are used to debug the program.
+** They are to be removed before final submission.
+*/
 
 int		write_map_data(t_data *data)
 {
@@ -27,7 +23,7 @@ int		write_map_data(t_data *data)
 	int			l;
 
 	k = 0;
-	while(k < data->map.y)
+	while (k < data->map.y)
 	{
 		l = 0;
 		while (l < data->map.x)
@@ -46,6 +42,5 @@ int		write_map_data(t_data *data)
 		}
 		k++;
 	}
-
 	return (1);
 }
