@@ -6,7 +6,7 @@ OBJECTS = $(FILES:.c=.o)
 CFLAG = -Wall -Werror -Wextra -g
 ATTACH = libft/libft.a
 
-all: fclean lib $(NAME)
+all: fclean lib $(NAME) qme
 
 quick: fclean $(NAME)
 	@echo "Made Quickly"
@@ -66,3 +66,13 @@ testvs_large2:
 ftest: fclean all test
 	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 	@less debugdump.txt
+
+format: norme me
+
+me: qme
+	cat -e author
+
+qme:
+	if [ ! -f author ]; then \
+		whoami > author; \
+	fi
