@@ -43,6 +43,7 @@
 # define NE_FOE2 find_nearest_foe(info, *best)
 # define CLOSER (ft_dist(NE_FOE, pos) < ft_dist(*best, NE_FOE2))
 # define FUR_01 find_furthest_point(info, pos, overlap)
+
 # define AB_POS ft_add_coord(pos, counts)
 # define CUR_DIST ft_dist(AB_POS, find_nearest_foe(info, AB_POS))
 # define SET_BEST {weight=2;*best=pos;*best_weight=weight;best_dist=CUR_DIST;}
