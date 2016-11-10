@@ -8,3 +8,4 @@ filler.trace
 libft.a
 debugdump.txt
 libft.a
+*.o
