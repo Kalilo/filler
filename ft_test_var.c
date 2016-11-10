@@ -10,9 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/* These functions are used to debuf the program.
- * They are to be removed before final submission.
- */
+/* 
+*These functions are used to debug the program.
+* They are to be removed before final submission.
+*/
 
 #include "filler.h"
 
