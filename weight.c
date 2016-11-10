@@ -6,7 +6,7 @@
 /*   By: khansman <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/06/12 09:56:52 by khansman          #+#    #+#             */
-/*   Updated: 2016/06/12 15:36:46 by khansman         ###   ########.fr       */
+/*   Updated: 2016/11/10 09:39:17 by khansman         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,9 +54,9 @@ int		weight_option(t_data *info, t_coord pos,
 		{
 			if (ON_MAP && ON_PIE && PIE_POS == '*')
 			{
-  				weight += scan_imm_foe(info, counts);
- 				if ((weight < 5 && *best_weight < 5) && (CUR_DIST < best_dist))
-				 SET_BEST;
+				weight += scan_imm_foe(info, counts);
+				if ((weight < 5 && *best_weight < 5) && (CUR_DIST < best_dist))
+					SET_BEST;
 			}
 			counts.x++;
 		}
