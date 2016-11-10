@@ -1,12 +1,52 @@
 #include "filler.h"
 
+static char		*re_malloc(char *line, size_t size)
+{
+	char			*tmp;
+
+	dprintf(debugfd, "remalloc\n");
+	tmp = ft_strnew(size + 50);
+	if (size > 0)
+	{
+		tmp = ft_strcpy(tmp, line);
+		free(line);
+	}
+	return (tmp);
+}
+
+int			get_line(int fd, char **line)
+{
+	static unsigned int	k;
+	char			buff;
+	char			*l;
+	
+	read(fd, &buff, 1);
+	dprintf(debugfd, "get_line\n");
+	while (buff != '\n' && buff != '\0')
+	{
+		if (k % 50== 0 || k == 0)
+			l = re_malloc(l, k);
+		l[k] = buff;
+		if (buff != 0)
+			k++;
+		read(fd, &buff, 1);
+	}
+	dprintf(debugfd, "get_line, line = %s\n", l);
+	*line = l;
+	if (k > 0)
+	{
+		k = 0;
+		return (1);
+	}
+	return (0);
+}
 
 int			get_player(t_data *info)
 {
 	char	**l;
 	char	*line;
 	
-	if (!(get_next_line(0, &line)))
+	if (!(get_line(0, &line)))
 	return (0);
 	l = ft_strsplit(line, ' ');
 	if (ft_strcmp(l[2], "p1") == 0)
@@ -24,7 +64,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 
 				ft_putstr_fd("ENTERING FILE:read.c\n\n", debugfd);
 
-	/*ft_putstr_fd("\nread.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
+	ft_putstr_fd("\nread.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
 	ft_putstr_fd("\tint\t\tlines\t\t[", debugfd);
 	ft_putnbr_fd(lines, debugfd);
 	ft_putstr_fd("]\n", debugfd);
@@ -55,7 +95,7 @@ static int	process_pos(int lines, int *size, char *line, t_data *map)
 	ft_putstr_fd("]\n", debugfd);
 	
 					ft_putstr_fd("read.c\t\tprocess_pos:\t---Input Variables---\n", debugfd);
-*/
+
 	l = ft_strsplit(line, ' ');
 	if (lines == 2)
 	{
@@ -111,11 +151,11 @@ int			read_input(int fd, t_data *map)
 		ft_putnbr_fd(lines, debugfd);
 		ft_putstr_fd("]\n", debugfd);
 		ft_putstr_fd("read.c\t\tread_input:\tAttempting to GetNextLine\n", debugfd);
-		if (!(get_next_line(fd, &line)))
-			return (0);
+		while (!(get_line(fd, &line)))
+			done = (0);
 		ft_putstr_fd("read.c\t\tread_input:\tRunning process_pos\n", debugfd);
 		process_pos(lines, &size, line, map);
-		lines++;
+		lines += 1;
 		free(line);
 		ft_putstr_fd("read.c\t\tread_input:\tSuccesfully freed 'line' from GNL\n", debugfd);
 		if (lines >= size + 1)

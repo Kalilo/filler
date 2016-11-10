@@ -41,11 +41,16 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 	t_coord		counts;
 	int			weight;
 	t_coord		overlap;
+	t_coord		centre;
 	
+	centre.x = (info->map.x + 1) / 2;
+	centre.y = (info->map.y + 1) / 2;
 	weight = 0;
 	counts.y = pos.y;
 	overlap = find_overlap(info, pos);
-	weight = ft_est_angle(NE_FOE, overlap, find_furthest_point(info, pos, overlap));
+	dprintf(debugfd, "Overlap = %i(y) %i(x)\n", overlap.y, overlap.x);
+	weight = ft_est_angle(NE_FOE, overlap, find_furthest_point(info, pos, overlap)) * 2;
+	//weight += ft_est_angle(find_furthest_point(info, pos, overlap), overlap, centre);
 	debug_mess("weight option 1 weight init = ", weight);
 	while (counts.y < info->piece.y + pos.y)
 	{
@@ -63,7 +68,7 @@ int		weight_option(t_data *info, t_coord pos, int *best_weight, t_coord *best)
 		}
 		counts.y++;
 	}
-	if ((weight > *best_weight) || CLOSER))
+	if ((weight > *best_weight) || (weight == *best_weight && CLOSER)))
 	{
 		*best_weight = weight;
 		*best = pos;

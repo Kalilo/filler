@@ -39,6 +39,7 @@ t_coord	find_overlap(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
+	dprintf(debugfd, "(Overlap failed)\n");
 	return (counts);
 }
 
@@ -48,7 +49,7 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 	t_coord		furthest;
 	t_coord		temp;
 	
-	dprintf(debugfd, "find_furthest_point 1\n");
+	dprintf(debugfd, "find_furthest_point from %i %i\n", pos.y, pos.x);
 	counts.y = 0;
 	furthest.x = overlap.x;
 	furthest.y = overlap.y;
@@ -57,17 +58,25 @@ t_coord	find_furthest_point(t_data *info, t_coord pos, t_coord overlap)
 		counts.x = 0;
 		while (counts.x < info->piece.x)
 		{
-			temp.x = counts.x + pos.x;
+			/*temp.x = counts.x + pos.x;
 			temp.y = counts.y + pos.y;
 			if (ON_MAP01 && ON_PIE2 && PIE_FUL)
-			{
+			{ 
 				if ((MTH01) > (MTH02))
 					furthest = counts;
+			}*/
+			if (ON_PIE2 && PIE_FUL)
+			{
+				temp.y = counts.y + pos.y;
+				temp.x = counts.x + pos.x;
+				if (ft_dist(counts, overlap) > ft_dist(furthest, overlap))
+					furthest = temp;
 			}
 			counts.x++;
 		}
 		counts.y++;
 	}
+	dprintf(debugfd, "Futherest = %i(y), %i(x)\n", furthest.y, furthest.x);
 	return (furthest);
 }
 
@@ -97,6 +106,6 @@ t_coord	find_nearest_foe(t_data *info, t_coord pos)
 		}
 		counts.y++;
 	}
-	//dprintf(debugfd, "find_nearest_foe 5\n");
+	dprintf(debugfd, "Nearest_foe = %i(y), %i(x)\n", nearest.y, nearest.x);
 	return (nearest);
 }
