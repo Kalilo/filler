@@ -61,7 +61,7 @@ testvs_large2:
 	@/bin/rm -f debugdump.txt
 	@touch debugdump.txt
 	@resources/filler_vm -p1 ./resources/players/carli.filler -p2 ./filler -f \
-		resources/maps/map00
+		resources/maps/map02
 
 ftest: fclean all test
 	@echo "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
@@ -73,6 +73,6 @@ me: qme
 	cat -e author
 
 qme:
-	if [ ! -f author ]; then \
+	@if [ ! -f author ]; then \
 		whoami > author; \
 	fi
