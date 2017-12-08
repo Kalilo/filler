@@ -55,7 +55,7 @@ int		weight_option(t_data *info, t_coord pos,
 			if (ON_MAP && ON_PIE && PIE_POS == '*')
 			{
 				weight += scan_imm_foe(info, counts);
-				if ((weight < 5 && *best_weight < 5) && (CUR_DIST < best_dist))
+				if ((weight < 5 && *best_weight < 5) && (CUR_DIST <= best_dist))
 					SET_BEST;
 			}
 			counts.x++;

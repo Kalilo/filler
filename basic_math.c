@@ -32,7 +32,7 @@ int		ft_is_foe(int player, char pos)
 
 int		ft_sqrt(int num)
 {
-	int	k;
+	int		k;
 
 	k = 1;
 	while (k * k < num)
@@ -40,9 +40,28 @@ int		ft_sqrt(int num)
 	return (k - 1);
 }
 
-int		ft_dist(t_coord a, t_coord b)
+float	ft_sqrtf(float num)
 {
-	return (ft_sqrt(((a.x - b.x) * (a.x - b.x)) +
+	float	a;
+	float	b;
+	int		k;
+
+	a = 10;
+	k = 0;
+	while (k < 100)
+	{
+		b = a;
+		a = a - (a * a - num) / (2 * a);
+		if (b == a)
+			break ;
+		k++;
+	}
+	return (a);
+}
+
+float	ft_dist(t_coord a, t_coord b)
+{
+	return (ft_sqrtf(((a.x - b.x) * (a.x - b.x)) +
 		((a.y - b.y) * (a.y - b.y))));
 }
 

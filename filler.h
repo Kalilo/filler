@@ -103,7 +103,7 @@ t_coord			find_nearest_foe(t_data *info, t_coord pos);
 int				ft_abs(int num);
 int				ft_is_foe(int player, char pos);
 int				ft_sqrt(int	num);
-int				ft_dist(t_coord a, t_coord b);
+float			ft_dist(t_coord a, t_coord b);
 t_coord			ft_add_coord(t_coord a, t_coord b);
 int				give_result(t_coord best);
 int				free_g(char ***arr, int rows);

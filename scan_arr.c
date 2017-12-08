@@ -53,7 +53,8 @@ int		scan_arr(t_data *info)
 		counts.x = 1 - info->piece.x;
 		while (counts.x < info->piece.x + info->map.x - 1)
 		{
-			test_point(info, counts, &best_weight, &best);
+			if (test_point(info, counts, &best_weight, &best) > best_weight)
+				best = counts;
 			counts.x++;
 		}
 		counts.y++;
